@@ -5,6 +5,9 @@
         
         <item name="android:windowLightStatusBar">true</item>
     </style>
+    <style name="Theme.MeetMino" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
     <style name="Theme.MyApp" parent="Theme.Material3.DayNight">
         
         <item name="colorPrimary">#BB86FC</item>

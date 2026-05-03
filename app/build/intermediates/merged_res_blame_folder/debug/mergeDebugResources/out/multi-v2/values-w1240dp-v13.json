@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-84:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-93:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/genny/WORK/TRACKING-APP/android/app/src/main/res/values-w1240dp/dimens.xml",
+                    "source": "/Users/genny/WORK/TRACKING-APP/android/app/src/main/res/values-w1240dp/dimens.xml 17-41-12-357.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

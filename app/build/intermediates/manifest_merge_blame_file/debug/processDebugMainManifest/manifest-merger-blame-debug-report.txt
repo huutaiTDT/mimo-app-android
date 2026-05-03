@@ -8,437 +8,351 @@
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="34" />
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:6:5-67
-11-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:6:22-64
-12
-13    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
-13-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:7:5-72
-13-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:7:29-69
-14    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:8:5-87
-14-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:8:29-84
-15
-16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-16-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:10:5-71
-16-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:10:22-68
-17
-18    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-18-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:12:5-88
-18-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:12:29-85
-19    <uses-permission-sdk-23 android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-19-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:13:5-14:40
-19-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:13:29-86
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:30:5-34:15
 20
-21    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-21-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:15:5-16:46
-21-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:15:22-73
-22    <!-- Dành cho Android 13+ -->
-23    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-23-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:18:5-19:46
-23-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:18:22-72
-24    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-24-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:20:5-75
-24-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:20:22-72
-25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-25-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:22:5-79
-25-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:22:22-76
-26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-26-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:23:5-81
-26-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:23:22-78
-27
-28    <uses-feature
-28-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:27:5-29:36
-29        android:name="android.hardware.touchscreen"
-29-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:28:9-52
-30        android:required="false" />
-30-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:29:9-33
-31    <uses-feature
-31-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:30:5-32:35
-32        android:name="android.software.leanback"
-32-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:31:9-49
-33        android:required="true" />
-33-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:32:9-32
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:25:5-68
+25-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:25:22-65
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:26:22-107
+27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+27-->[com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/3fd56c2a4574b801c34f0559dad19c26/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:27:5-79
+27-->[com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/3fd56c2a4574b801c34f0559dad19c26/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:27:22-76
+28    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+28-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:26:5-88
+28-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:26:22-85
+29    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+29-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:27:5-82
+29-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:27:22-79
+30
+31    <permission
+31-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+32        android:name="huutai.dev.meetmino.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
 34
-35    <!-- Include required permissions for Google Maps API to run. -->
-36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-36-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
-36-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:22-76
-37
-38    <uses-feature
-38-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
-39        android:glEsVersion="0x00020000"
-39-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:27:9-41
-40        android:required="true" />
-40-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:28:9-32
-41
-42    <queries>
-42-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:30:5-34:15
-43
-44        <!-- Needs to be explicitly declared on Android R+ -->
-45        <package android:name="com.google.android.apps.maps" />
-45-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:9-64
-45-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:18-61
-46    </queries>
-47
-48    <uses-permission android:name="android.permission.WAKE_LOCK" />
-48-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:25:5-68
-48-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:25:22-65
-49    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-49-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:26:5-110
-49-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:26:22-107
-50    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-50-->[com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/3fd56c2a4574b801c34f0559dad19c26/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:27:5-79
-50-->[com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/3fd56c2a4574b801c34f0559dad19c26/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:27:22-76
-51    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-51-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:26:5-88
-51-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:26:22-85
-52    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-52-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:27:5-82
-52-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:27:22-79
-53
-54    <permission
-54-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
-55        android:name="huutai.dev.meetmino.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-55-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
-56        android:protectionLevel="signature" />
-56-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
-57
-58    <uses-permission android:name="huutai.dev.meetmino.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-58-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
-58-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
-59
-60    <application
-60-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:35:5-66:19
-61        android:name="huutai.dev.meetmino.MyApplication"
-61-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:45:9-38
-62        android:allowBackup="true"
-62-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:36:9-35
-63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-63-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
-64        android:dataExtractionRules="@xml/data_extraction_rules"
-64-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:37:9-65
-65        android:debuggable="true"
-66        android:extractNativeLibs="false"
-67        android:fullBackupContent="@xml/backup_rules"
-67-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:38:9-54
-68        android:icon="@mipmap/ic_launcher"
-68-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:39:9-43
-69        android:label="@string/app_name"
-69-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:40:9-41
-70        android:networkSecurityConfig="@xml/network_security_config"
-70-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:46:9-69
-71        android:roundIcon="@mipmap/ic_launcher"
-71-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:41:9-48
-72        android:supportsRtl="true"
-72-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:42:9-35
-73        android:testOnly="true"
-74        android:theme="@style/Theme.Meetmino" >
-74-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:43:9-46
-75        <meta-data
-75-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:48:9-50:71
-76            android:name="com.google.android.geo.API_KEY"
-76-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:49:13-58
-77            android:value="AIzaSyA5y6DtJmzxImKOcTpT27I4QU84n-eeQxA" />
-77-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:50:13-68
-78
-79        <activity
-79-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:52:9-65:20
-80            android:name="huutai.dev.meetmino.MainActivity"
-80-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:53:13-41
-81            android:exported="true"
-81-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:54:13-36
-82            android:theme="@style/Theme.MyApp.Splash" >
-82-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:55:13-54
-83            <intent-filter>
-83-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:57:13-61:29
-84                <action android:name="android.intent.action.MAIN" />
-84-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:58:17-69
-84-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:58:25-66
-85
-86                <category android:name="android.intent.category.LAUNCHER" />
-86-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:60:17-77
-86-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:60:27-74
-87            </intent-filter>
-88        </activity>
-89
-90        <service
-90-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:24:9-33:19
-91            android:name="androidx.camera.core.impl.MetadataHolderService"
-91-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:25:13-75
-92            android:enabled="false"
-92-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:26:13-36
-93            android:exported="false" >
-93-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:27:13-37
-94            <meta-data
-94-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:30:13-32:89
-95                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-95-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:31:17-103
-96                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-96-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:32:17-86
-97        </service> <!-- Needs to be explicitly declared on P+ -->
-98        <uses-library
-98-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:39:9-41:40
-99            android:name="org.apache.http.legacy"
-99-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:40:13-50
-100            android:required="false" />
-100-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:41:13-37
-101
-102        <receiver
-102-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:29:9-33:20
-103            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-103-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:30:13-85
-104            android:enabled="true"
-104-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:31:13-35
-105            android:exported="false" >
-105-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:32:13-37
-106        </receiver>
-107
-108        <service
-108-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:35:9-38:40
-109            android:name="com.google.android.gms.measurement.AppMeasurementService"
-109-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:36:13-84
-110            android:enabled="true"
-110-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:37:13-35
-111            android:exported="false" />
-111-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:38:13-37
+35    <uses-permission android:name="huutai.dev.meetmino.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:4:5-10:19
+38        android:name="huutai.dev.meetmino.MyApplication"
+38-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:5:9-38
+39        android:allowBackup="true"
+39-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:6:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/1602c45cbc29daa185243654f7c7f136/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:label="Meet Mino"
+43-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:7:9-34
+44        android:supportsRtl="true"
+44-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:8:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.MeetMino.Splash" >
+46-->/Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:9:9-53
+47        <service
+47-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:24:9-33:19
+48            android:name="androidx.camera.core.impl.MetadataHolderService"
+48-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:25:13-75
+49            android:enabled="false"
+49-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:26:13-36
+50            android:exported="false" >
+50-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:30:13-32:89
+52                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+52-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:31:17-103
+53                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+53-->[androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/915a7390bf54be56bcf3cc02b09cb9fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:32:17-86
+54        </service> <!-- Needs to be explicitly declared on P+ -->
+55        <uses-library
+55-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:39:9-41:40
+56            android:name="org.apache.http.legacy"
+56-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:40:13-50
+57            android:required="false" />
+57-->[com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d4e2d13803e72d8c31d90ac6b3a37b9a/transformed/play-services-maps-19.0.0/AndroidManifest.xml:41:13-37
+58
+59        <receiver
+59-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:29:9-33:20
+60            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+60-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:30:13-85
+61            android:enabled="true"
+61-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:31:13-35
+62            android:exported="false" >
+62-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:32:13-37
+63        </receiver>
+64
+65        <service
+65-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:35:9-38:40
+66            android:name="com.google.android.gms.measurement.AppMeasurementService"
+66-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:36:13-84
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:37:13-35
+68            android:exported="false" />
+68-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:38:13-37
+69        <service
+69-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:39:9-43:72
+70            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+70-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:40:13-87
+71            android:enabled="true"
+71-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:41:13-35
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:42:13-37
+73            android:permission="android.permission.BIND_JOB_SERVICE" />
+73-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:43:13-69
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+79
+80        <service
+80-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:12:9-21:19
+81            android:name="com.google.firebase.components.ComponentDiscoveryService"
+81-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:13:13-84
+82            android:directBootAware="true"
+82-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+83            android:exported="false" >
+83-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:14:13-37
+84            <meta-data
+84-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:15:13-17:85
+85                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+85-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:16:17-126
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:17:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:18:13-20:85
+88                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+88-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:19:17-115
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:20:17-82
+90            <meta-data
+90-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:33:13-35:85
+91                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+91-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:34:17-139
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:35:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:29:13-31:85
+94                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+94-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:30:17-117
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:31:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+97-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+100                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+100-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/49642e19be42411cb43a2784f921ef07/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+103                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+103-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/49642e19be42411cb43a2784f921ef07/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/49642e19be42411cb43a2784f921ef07/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+106                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+106-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/82d20265e102ef323a7dc122c91f93ae/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+109                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+109-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/82d20265e102ef323a7dc122c91f93ae/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/82d20265e102ef323a7dc122c91f93ae/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
+111        </service>
 112        <service
-112-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:39:9-43:72
-113            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-113-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:40:13-87
+112-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:22:9-25:40
+113            android:name="com.google.firebase.sessions.SessionLifecycleService"
+113-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:23:13-80
 114            android:enabled="true"
-114-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:41:13-35
-115            android:exported="false"
-115-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:42:13-37
-116            android:permission="android.permission.BIND_JOB_SERVICE" />
-116-->[com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/73b4856bdc22711c0a03a18a1162dad2/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:43:13-69
-117
-118        <activity
-118-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
-119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-119-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
-120            android:exported="false"
-120-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
-121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-121-->[com.google.android.gms:play-services-base:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/257d5131e02bd3a781b87aca4bfe9a1f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
-122
-123        <service
-123-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:12:9-21:19
-124            android:name="com.google.firebase.components.ComponentDiscoveryService"
-124-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:13:13-84
-125            android:directBootAware="true"
-125-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
-126            android:exported="false" >
-126-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:14:13-37
-127            <meta-data
-127-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:15:13-17:85
-128                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
-128-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:16:17-126
-129                android:value="com.google.firebase.components.ComponentRegistrar" />
-129-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:17:17-82
-130            <meta-data
-130-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:18:13-20:85
-131                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-131-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:19:17-115
-132                android:value="com.google.firebase.components.ComponentRegistrar" />
-132-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/e6efa73353bdd0000782eecde528b97a/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:20:17-82
-133            <meta-data
-133-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:33:13-35:85
-134                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-134-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:34:17-139
-135                android:value="com.google.firebase.components.ComponentRegistrar" />
-135-->[com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/e2b8e74234bccf052cfc42c4f0b366a8/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:35:17-82
-136            <meta-data
-136-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:29:13-31:85
-137                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
-137-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:30:17-117
-138                android:value="com.google.firebase.components.ComponentRegistrar" />
-138-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:31:17-82
-139            <meta-data
-139-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
-140                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-140-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
-141                android:value="com.google.firebase.components.ComponentRegistrar" />
-141-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
-142            <meta-data
-142-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
-143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-143-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
-144                android:value="com.google.firebase.components.ComponentRegistrar" />
-144-->[com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/4613ea267e1c241241bd4896d3a7829b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
-145            <meta-data
-145-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/49642e19be42411cb43a2784f921ef07/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
-146                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-146-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/49642e19be42411cb43a2784f921ef07/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
-147                android:value="com.google.firebase.components.ComponentRegistrar" />
-147-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/49642e19be42411cb43a2784f921ef07/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
-148            <meta-data
-148-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
-149                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-149-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
-150                android:value="com.google.firebase.components.ComponentRegistrar" />
-150-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
-151            <meta-data
-151-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/82d20265e102ef323a7dc122c91f93ae/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
-152                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-152-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/82d20265e102ef323a7dc122c91f93ae/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
-153                android:value="com.google.firebase.components.ComponentRegistrar" />
-153-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/82d20265e102ef323a7dc122c91f93ae/transformed/firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
-154        </service>
-155        <service
-155-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:22:9-25:40
-156            android:name="com.google.firebase.sessions.SessionLifecycleService"
-156-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:23:13-80
-157            android:enabled="true"
-157-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:24:13-35
-158            android:exported="false" />
-158-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:25:13-37
+114-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:24:13-35
+115            android:exported="false" />
+115-->[com.google.firebase:firebase-sessions:2.0.8] /Users/genny/.gradle/caches/8.9/transforms/31a431ca2bbf762f0c5b88e18635d39f/transformed/firebase-sessions-2.0.8/AndroidManifest.xml:25:13-37
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+119            android:authorities="huutai.dev.meetmino.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+123
+124        <service
+124-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+125            android:name="androidx.room.MultiInstanceInvalidationService"
+125-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+126            android:directBootAware="true"
+126-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+127            android:exported="false" />
+127-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+128
+129        <activity
+129-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/69405551e319aec45a9bda97ce89d448/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+130            android:name="androidx.compose.ui.tooling.PreviewActivity"
+130-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/69405551e319aec45a9bda97ce89d448/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+131            android:exported="true" />
+131-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/69405551e319aec45a9bda97ce89d448/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+132
+133        <uses-library
+133-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/genny/.gradle/caches/8.9/transforms/a4153af583ad104d84d86b3c40560abc/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+134            android:name="android.ext.adservices"
+134-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/genny/.gradle/caches/8.9/transforms/a4153af583ad104d84d86b3c40560abc/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+135            android:required="false" />
+135-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/genny/.gradle/caches/8.9/transforms/a4153af583ad104d84d86b3c40560abc/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+136
+137        <provider
+137-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+138            android:name="androidx.startup.InitializationProvider"
+138-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+139            android:authorities="huutai.dev.meetmino.androidx-startup"
+139-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+140            android:exported="false" >
+140-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+141            <meta-data
+141-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+142                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+142-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+143                android:value="androidx.startup" />
+143-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+144            <meta-data
+144-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/genny/.gradle/caches/8.9/transforms/37bb648e0ab28658076644b4b51c80f2/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
+145                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+145-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/genny/.gradle/caches/8.9/transforms/37bb648e0ab28658076644b4b51c80f2/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
+146                android:value="androidx.startup" />
+146-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/genny/.gradle/caches/8.9/transforms/37bb648e0ab28658076644b4b51c80f2/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
+147            <meta-data
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+148                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+149                android:value="androidx.startup" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+150        </provider>
+151
+152        <meta-data
+152-->[com.google.android.gms:play-services-basement:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/c3df5bf041a95f4caeefb650b2a59f0c/transformed/play-services-basement-18.5.0/AndroidManifest.xml:21:9-23:69
+153            android:name="com.google.android.gms.version"
+153-->[com.google.android.gms:play-services-basement:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/c3df5bf041a95f4caeefb650b2a59f0c/transformed/play-services-basement-18.5.0/AndroidManifest.xml:22:13-58
+154            android:value="@integer/google_play_services_version" />
+154-->[com.google.android.gms:play-services-basement:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/c3df5bf041a95f4caeefb650b2a59f0c/transformed/play-services-basement-18.5.0/AndroidManifest.xml:23:13-66
+155
+156        <activity
+156-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/5d4dc898e36e7d597c7b0670d449547e/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:23:9-25:39
+157            android:name="androidx.activity.ComponentActivity"
+157-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/5d4dc898e36e7d597c7b0670d449547e/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:24:13-63
+158            android:exported="true" />
+158-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/5d4dc898e36e7d597c7b0670d449547e/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:25:13-36
 159
-160        <provider
-160-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
-161            android:name="com.google.firebase.provider.FirebaseInitProvider"
-161-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
-162            android:authorities="huutai.dev.meetmino.firebaseinitprovider"
-162-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
-163            android:directBootAware="true"
-163-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
-164            android:exported="false"
-164-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
-165            android:initOrder="100" />
-165-->[com.google.firebase:firebase-common:21.0.0] /Users/genny/.gradle/caches/8.9/transforms/b5e3aa2766e88ee43bd08925e6fe2ad7/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
-166
-167        <service
-167-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
-168            android:name="androidx.room.MultiInstanceInvalidationService"
-168-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
-169            android:directBootAware="true"
-169-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
-170            android:exported="false" />
-170-->[androidx.room:room-runtime:2.6.1] /Users/genny/.gradle/caches/8.9/transforms/241ae8d8b1f4a46c0f8cca880f971bb8/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
-171
-172        <activity
-172-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/69405551e319aec45a9bda97ce89d448/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
-173            android:name="androidx.compose.ui.tooling.PreviewActivity"
-173-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/69405551e319aec45a9bda97ce89d448/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
-174            android:exported="true" />
-174-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/69405551e319aec45a9bda97ce89d448/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
-175
-176        <uses-library
-176-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/genny/.gradle/caches/8.9/transforms/a4153af583ad104d84d86b3c40560abc/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
-177            android:name="android.ext.adservices"
-177-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/genny/.gradle/caches/8.9/transforms/a4153af583ad104d84d86b3c40560abc/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
-178            android:required="false" />
-178-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/genny/.gradle/caches/8.9/transforms/a4153af583ad104d84d86b3c40560abc/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+160        <receiver
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+161            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+162            android:directBootAware="false"
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+163            android:enabled="true"
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+164            android:exported="true"
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+165            android:permission="android.permission.DUMP" >
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+166            <intent-filter>
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+167                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+168            </intent-filter>
+169            <intent-filter>
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+170                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+170-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+170-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+171            </intent-filter>
+172            <intent-filter>
+172-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+173                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+173-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+173-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+174            </intent-filter>
+175            <intent-filter>
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+176                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+177            </intent-filter>
+178        </receiver>
 179
-180        <provider
-180-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-181            android:name="androidx.startup.InitializationProvider"
-181-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-182            android:authorities="huutai.dev.meetmino.androidx-startup"
-182-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-183            android:exported="false" >
-183-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-184            <meta-data
-184-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-185                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-185-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-186                android:value="androidx.startup" />
-186-->[androidx.emoji2:emoji2:1.3.0] /Users/genny/.gradle/caches/8.9/transforms/bffe30b27c9c74cd81b798531081509e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-187            <meta-data
-187-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/genny/.gradle/caches/8.9/transforms/37bb648e0ab28658076644b4b51c80f2/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
-188                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-188-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/genny/.gradle/caches/8.9/transforms/37bb648e0ab28658076644b4b51c80f2/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
-189                android:value="androidx.startup" />
-189-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/genny/.gradle/caches/8.9/transforms/37bb648e0ab28658076644b4b51c80f2/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
-190            <meta-data
-190-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-191                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-191-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-192                android:value="androidx.startup" />
-192-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-193        </provider>
-194
-195        <meta-data
-195-->[com.google.android.gms:play-services-basement:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/c3df5bf041a95f4caeefb650b2a59f0c/transformed/play-services-basement-18.5.0/AndroidManifest.xml:21:9-23:69
-196            android:name="com.google.android.gms.version"
-196-->[com.google.android.gms:play-services-basement:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/c3df5bf041a95f4caeefb650b2a59f0c/transformed/play-services-basement-18.5.0/AndroidManifest.xml:22:13-58
-197            android:value="@integer/google_play_services_version" />
-197-->[com.google.android.gms:play-services-basement:18.5.0] /Users/genny/.gradle/caches/8.9/transforms/c3df5bf041a95f4caeefb650b2a59f0c/transformed/play-services-basement-18.5.0/AndroidManifest.xml:23:13-66
-198
-199        <activity
-199-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/5d4dc898e36e7d597c7b0670d449547e/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:23:9-25:39
-200            android:name="androidx.activity.ComponentActivity"
-200-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/5d4dc898e36e7d597c7b0670d449547e/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:24:13-63
-201            android:exported="true" />
-201-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/genny/.gradle/caches/8.9/transforms/5d4dc898e36e7d597c7b0670d449547e/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:25:13-36
-202
-203        <receiver
-203-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-204            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-204-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-205            android:directBootAware="false"
-205-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-206            android:enabled="true"
-206-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-207            android:exported="true"
-207-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-208            android:permission="android.permission.DUMP" >
-208-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-209            <intent-filter>
-209-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-210                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-210-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-210-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-211            </intent-filter>
-212            <intent-filter>
-212-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-213                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-213-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-213-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-214            </intent-filter>
-215            <intent-filter>
-215-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-216                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-216-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-216-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-217            </intent-filter>
-218            <intent-filter>
-218-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-219                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-219-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-219-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/genny/.gradle/caches/8.9/transforms/74e11f9332ff81a2783e5bcc0627bead/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
-220            </intent-filter>
-221        </receiver>
-222
-223        <service
-223-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
-224            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-224-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
-225            android:exported="false" >
-225-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
-226            <meta-data
-226-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
-227                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-227-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
-228                android:value="cct" />
-228-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
-229        </service>
-230        <service
-230-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
-231            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-231-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
-232            android:exported="false"
-232-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
-233            android:permission="android.permission.BIND_JOB_SERVICE" >
-233-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
-234        </service>
-235
-236        <receiver
-236-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
-237            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-237-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
-238            android:exported="false" />
-238-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
-239    </application>
-240
-241</manifest>
+180        <service
+180-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+181            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+181-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+182            android:exported="false" >
+182-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+183            <meta-data
+183-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+184                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+184-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+185                android:value="cct" />
+185-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/63d85ef24fe48e51e4b2709fb27fafca/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+186        </service>
+187        <service
+187-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+188            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+188-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+189            android:exported="false"
+189-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+190            android:permission="android.permission.BIND_JOB_SERVICE" >
+190-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+191        </service>
+192
+193        <receiver
+193-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+194            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+194-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+195            android:exported="false" />
+195-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/81d5b286964937270e38fc1cc69e4601/transformed/transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
+196    </application>
+197
+198</manifest>

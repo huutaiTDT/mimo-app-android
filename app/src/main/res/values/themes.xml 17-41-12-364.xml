@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Meetmino" parent="Base.Theme.Meetmino" />
+    <style name="Base.Theme.Meetmino" parent="Theme.Material3.DayNight">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <!-- Nếu muốn icon trên status bar tối (để nhìn rõ trên nền trắng): -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/hodos</item>
+        <item name="postSplashScreenTheme">@style/Theme.Meetmino</item>
+    </style>
+
+</resources>
