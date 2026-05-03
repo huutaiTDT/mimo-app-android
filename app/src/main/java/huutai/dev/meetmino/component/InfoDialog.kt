@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -17,7 +16,6 @@ import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -25,11 +23,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.airbnb.lottie.compose.LottieAnimation
-import com.airbnb.lottie.compose.LottieCompositionSpec
-import com.airbnb.lottie.compose.animateLottieCompositionAsState
-import com.airbnb.lottie.compose.rememberLottieComposition
-import huutai.dev.meetmino.R
 import huutai.dev.meetmino.helper.getScreenHeight
 
 
@@ -119,15 +112,6 @@ fun InfoDialog(
                     }
                 }
             }
-            HeaderImage(
-                modifier = Modifier
-                    .size(200.dp)
-                    .align(Alignment.TopCenter)
-                /*.border(
-                    border = BorderStroke(width = 5.dp, color = Color.White),
-                    shape = CircleShape
-                )*/
-            )
         }
     }
 }
@@ -135,14 +119,3 @@ fun InfoDialog(
 
 
 
-@Composable
-fun HeaderImage(modifier: Modifier) {
-    val composition by rememberLottieComposition(spec = LottieCompositionSpec.RawRes(R.raw.location))
-    val progress by animateLottieCompositionAsState(composition = composition)
-
-    LottieAnimation(
-        composition = composition,
-        progress = progress,
-        modifier = modifier
-    )
-}

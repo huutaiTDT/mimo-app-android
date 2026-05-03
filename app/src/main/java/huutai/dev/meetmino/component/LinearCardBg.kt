@@ -14,9 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 
-@OptIn(ExperimentalGlideComposeApi::class)
 @Composable
 fun LinearCardBg(
     content: @Composable ColumnScope.() -> Unit,

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-93:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-92:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/genny/.gradle/caches/8.9/transforms/bd853092ec30bd1ef04d6631f6b8c5dc/transformed/material-1.12.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/de5de467eee2d15d20b17c55ed8c26d2/transformed/material-1.12.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

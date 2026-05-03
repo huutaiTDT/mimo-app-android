@@ -5,7 +5,7 @@ import huutai.dev.meetmino.service.api.ErrorRes
 
 data class ResponseState(
     val error: ErrorRes? = null,
-    val response: Response? = null,
+    val response: Response<String>? = null,
     val isLoading: Boolean = false,
 )
 

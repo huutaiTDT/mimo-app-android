@@ -62,7 +62,6 @@ class ToastManager {
         dismissJobs.values.forEach { it.cancel() }
         dismissJobs.clear()
         _toasts.clear()
-        scope.cancel()
     }
 }
 

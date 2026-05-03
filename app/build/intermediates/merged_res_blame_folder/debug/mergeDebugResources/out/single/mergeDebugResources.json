@@ -1,382 +1,218 @@
 [
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_activity.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/activity.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xhdpi_ob_2.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xhdpi/ob_2.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_face_logo.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/face_logo.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-mdpi_ob_3.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-mdpi/ob_3.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_home_alt_svgrepo_com.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/home_alt_svgrepo_com.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/navigation_nav_graph.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/navigation/nav_graph.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_rounded_bg.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/rounded_bg.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxhdpi_ob_4.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxhdpi/ob_4.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_slide_in_left.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/slide_in_left.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxhdpi_ob_1.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxhdpi/ob_1.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_error.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/error.json"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_loading.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/loading.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_bottom_navigate.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/bottom_navigate.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxxhdpi_ar_img_round.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxxhdpi/ar_img_round.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_fade_out.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/fade_out.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_slide_in_bottom.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_slide_in_right.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/slide_in_right.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxxhdpi_ob_3.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxxhdpi/ob_3.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_profile_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/profile_icon.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-hdpi_ob_2.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-hdpi/ob_2.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ob_3.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ob_3.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xhdpi_ar_img_round.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xhdpi/ar_img_round.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_google_color_svgrepo_com.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/google_color_svgrepo_com.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxxhdpi_ar_img.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxxhdpi/ar_img.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_fellow_activity_21_svgrepo_com.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/fellow_activity_21_svgrepo_com.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_comming_soon.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/comming_soon.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_email_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/email_icon.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_slide_out_right.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/slide_out_right.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_onboarding_2.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/onboarding_2.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/xml_backup_rules.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_comming_soon.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/comming_soon.json"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_collect_informatioon.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/collect_informatioon.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_error.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/error.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxxhdpi_ob_4.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxxhdpi/ob_4.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_activity_main.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/activity_main.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_success.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/success.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_slide_out_right.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/slide_out_right.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_fade_in.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/fade_in.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_event.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/event.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxhdpi_ar_img.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxhdpi/ar_img.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/xml_network_security_config.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/xml/network_security_config.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-hdpi_ob_4.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-hdpi/ob_4.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xhdpi_ob_1.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xhdpi/ob_1.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ar_img.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ar_img.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_slide_out_top.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/slide_out_top.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_person.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/person.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_slide_out_left.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/slide_out_left.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_success.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/success.json"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-mdpi_ob_4.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-mdpi/ob_4.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_collect_informatioon.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/collect_informatioon.json"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-anydpi-v26_ar_img.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-anydpi-v26/ar_img.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_slide_in_bottom.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/slide_in_bottom.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_typing.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/typing.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_activity_onboarding.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/activity_onboarding.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxhdpi_ob_2.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxhdpi/ob_2.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_plus.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/plus.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxxhdpi_ob_2.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxxhdpi/ob_2.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_movie.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/movie.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_fade_out.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/fade_out.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_trip.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/trip.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-hdpi_ob_3.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-hdpi/ob_3.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_fragment_home.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/fragment_home.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxhdpi_ar_img_round.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxhdpi/ar_img_round.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_classcifical_feature.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/classcifical_feature.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-mdpi_ar_img.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-mdpi/ar_img.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_fragment_onboarding.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/fragment_onboarding.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-mdpi_ob_2.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-mdpi/ob_2.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_slide_out_left.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/slide_out_left.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-hdpi_ar_img.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-hdpi/ar_img.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_chat_ai_fea.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/chat_ai_fea.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/xml_network_security_config.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/xml/network_security_config.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_splash_log.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/splash_log.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_predict_anim.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/predict_anim.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_primary_button.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/primary_button.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_nores_ani.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/nores_ani.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_message_buble.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/message_buble.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_empty.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/empty.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xhdpi_ob_3.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xhdpi/ob_3.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_splash_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/splash_icon.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_error.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/error.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_onboarding_1.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/onboarding_1.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-hdpi_ar_img_round.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-hdpi/ar_img_round.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/menu_bottom_nav_menu.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/menu/bottom_nav_menu.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxhdpi_ob_3.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxhdpi/ob_3.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_hodos.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/hodos.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-hdpi_ob_1.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-hdpi/ob_1.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ar_img_background.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ar_img_background.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_slide_in_left.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/slide_in_left.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/navigation_nav_graph.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/navigation/nav_graph.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-mdpi_ob_1.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-mdpi/ob_1.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_fragment_profile.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/fragment_profile.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xxxhdpi_ob_1.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xxxhdpi/ob_1.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_loading.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/loading.json"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xhdpi_ob_4.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xhdpi/ob_4.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_search_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/search_icon.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-anydpi-v26_ar_img_round.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-anydpi-v26/ar_img_round.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/raw_location.json.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/raw/location.json"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_bell.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/bell.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-xhdpi_ar_img.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-xhdpi/ar_img.webp"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_search_alt_svgrepo_com.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/search_alt_svgrepo_com.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_img_placeholder.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/img_placeholder.xml"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/anim_slide_in_right.xml.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/anim/slide_in_right.xml"
     },
     {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ar.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ar.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_login_req.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/login_req.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_onboaring_1_background.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/onboaring_1_background.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_slide_out_top.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_more_feature.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/more_feature.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_fragment_activity.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/fragment_activity.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_splash.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/splash.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_predict_bg.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/predict_bg.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_img_container.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/img_container.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ob_1.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ob_1.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/mipmap-anydpi-v26_onboaring_1.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/mipmap-anydpi-v26/onboaring_1.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_activity_base.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/activity_base.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_heart.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/heart.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/mipmap-anydpi-v26_onboaring_1_round.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/mipmap-anydpi-v26/onboaring_1_round.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_home_banner.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/home_banner.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_activity_home.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/activity_home.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_profile_svgrepo_com.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/profile_svgrepo_com.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_home.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/home.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_typing.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/typing.json"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_location.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/location.json"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_predict_anim.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/predict_anim.json"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_bell_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/bell_icon.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_default_background.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/default_background.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_home_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/home_icon.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_fragment_search.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/fragment_search.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/layout_content_base.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/layout/content_base.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_save_loca_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/save_loca_icon.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_ob_2.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/ob_2.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_login_bg.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/login_bg.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/mipmap-anydpi-v26_ar_img_round.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/mipmap-anydpi-v26/ar_img_round.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_empty.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/empty.json"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/color_bottom_nav_selector.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/color/bottom_nav_selector.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_lock_svgrepo_com.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/lock_svgrepo_com.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/raw_nores_ani.json.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/raw/nores_ani.json"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_planning_fea.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/planning_fea.png"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/xml_backup_rules.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/anim_fade_in.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/anim/fade_in.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_location_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/location_icon.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_save_icon.xml.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/save_icon.xml"
-    },
-    {
-        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-95:/drawable_onboarding_3.png.flat",
-        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-97:/drawable/onboarding_3.png"
+        "merged": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-debug-94:/mipmap-mdpi_ar_img_round.webp.flat",
+        "source": "/Users/genny/.gradle/daemon/8.9/huutai.dev.meetmino.app-main-96:/mipmap-mdpi/ar_img_round.webp"
     }
 ]

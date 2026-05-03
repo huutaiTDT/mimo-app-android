@@ -1,16 +1,16 @@
 package huutai.dev.meetmino.component
 
-
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PagerState
 import androidx.compose.foundation.pager.rememberPagerState
@@ -21,21 +21,17 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
-import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
-import com.bumptech.glide.integration.compose.GlideImage
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-@OptIn(ExperimentalFoundationApi::class, ExperimentalGlideComposeApi::class)
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun ImageCarousel(
     lstImgUrl: List<String>,
@@ -43,76 +39,87 @@ fun ImageCarousel(
     autoScrollDuration: Long = 3000,
     enableAutoScroll: Boolean = true,
     showIndicator: Boolean = true,
-    activeIndicatorColor: Color = Color(0xFF2196F3),
+    activeIndicatorColor: Color = Color(0xFF00B7EB),
     inactiveIndicatorColor: Color = Color.LightGray,
     contentDescription: String? = null,
-    rounded: Int? = 20
+    rounded: Int = 20
 ) {
+
     if (lstImgUrl.isEmpty()) return
 
-    val pagerState = rememberPagerState(pageCount = { lstImgUrl.size })
-    val coroutineScope = rememberCoroutineScope()
+    val pagerState = rememberPagerState(
+        initialPage = 0,
+        pageCount = { lstImgUrl.size }
+    )
 
-    // Auto scroll logic
-    LaunchedEffect(pagerState, enableAutoScroll) {
+    LaunchedEffect(enableAutoScroll, lstImgUrl.size) {
         if (enableAutoScroll && lstImgUrl.size > 1) {
             while (true) {
                 delay(autoScrollDuration)
-                val nextPage = (pagerState.currentPage + 1) % lstImgUrl.size
+
+                val nextPage =
+                    if (pagerState.currentPage == lstImgUrl.lastIndex) 0
+                    else pagerState.currentPage + 1
+
                 pagerState.animateScrollToPage(nextPage)
             }
         }
     }
 
     Box(
-        modifier = modifier
-            .fillMaxWidth()
+        modifier = modifier.fillMaxWidth()
     ) {
-        // Image Pager
+
         HorizontalPager(
             state = pagerState,
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier.fillMaxSize()
         ) { page ->
-            if (rounded != null) {
-                Card(
-                    modifier = Modifier
-                        .fillMaxWidth(),
-                    shape = RoundedCornerShape(rounded.dp)
-                ) {
-                    GlideImage(
-                        model = lstImgUrl[page],
-                        contentDescription = contentDescription ?: "Carousel image $page",
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(400.dp),
-                        contentScale = ContentScale.Crop
-                    )
-                }
+
+            Card(
+                modifier = Modifier.fillMaxSize(),
+                shape = RoundedCornerShape(rounded.dp)
+            ) {
+
+                ImgWithUrl(
+                    url = lstImgUrl[page],
+                    alt = contentDescription ?: "Banner $page",
+                    modifier = Modifier.fillMaxSize(),
+                    rounded = rounded,
+                    contentScale = ContentScale.Crop
+                )
             }
         }
 
-        // Indicators
         if (showIndicator && lstImgUrl.size > 1) {
+
             Row(
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
-                    .padding(bottom = 10.dp),
+                    .padding(bottom = 12.dp),
                 horizontalArrangement = Arrangement.Center
             ) {
+
                 repeat(lstImgUrl.size) { index ->
-                    val isSelected = pagerState.currentPage == index
-                    val size by animateDpAsState(
-                        targetValue = if (isSelected) 10.dp else 8.dp,
-                        label = "indicator size"
+
+                    val selected = pagerState.currentPage == index
+
+                    val width by animateDpAsState(
+                        targetValue = if (selected) 22.dp else 8.dp,
+                        label = ""
                     )
 
                     Box(
                         modifier = Modifier
                             .padding(horizontal = 4.dp)
-                            .size(size)
+                            .height(8.dp)
+                            .width(width)
                             .clip(CircleShape)
-                            .background(if (isSelected) activeIndicatorColor else inactiveIndicatorColor)
-                            .padding(4.dp)
+                            .background(
+                                if (selected)
+                                    activeIndicatorColor
+                                else
+                                    inactiveIndicatorColor
+                            )
                     )
                 }
             }
@@ -120,36 +127,35 @@ fun ImageCarousel(
     }
 }
 
-// Extension function to scroll to a specific page
 @OptIn(ExperimentalFoundationApi::class)
-fun PagerState.scrollToPage(page: Int) {
-    if (pageCount > 0) {
-        val targetPage = page.coerceIn(0, pageCount - 1)
-        val coroutineScope = CoroutineScope(Dispatchers.Main)
-        coroutineScope.launch {
-            animateScrollToPage(targetPage)
-        }
+fun PagerState.scrollToPageSmooth(
+    page: Int,
+    scope: CoroutineScope
+) {
+    if (pageCount == 0) return
+
+    val target = page.coerceIn(0, pageCount - 1)
+
+    scope.launch {
+        animateScrollToPage(target)
     }
 }
+
 @Composable
 fun CarouselExample(
-    height: Int? = 220,
-    rounded: Int? = 20,
-    banners: List<String>? = null
+    height: Int = 220,
+    rounded: Int = 20,
+    banners: List<String> = emptyList()
 ) {
-    val imageUrls = banners ?: emptyList()
-
-    if (height != null) {
-        ImageCarousel(
-            rounded = rounded ?: 0,
-            lstImgUrl = imageUrls,
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(height.dp),
-            autoScrollDuration = 5000,
-            enableAutoScroll = true,
-            activeIndicatorColor = MaterialTheme.colorScheme.primary,
-            inactiveIndicatorColor = MaterialTheme.colorScheme.secondary
-        )
-    }
+    ImageCarousel(
+        lstImgUrl = banners,
+        rounded = rounded,
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(height.dp),
+        autoScrollDuration = 5000,
+        enableAutoScroll = true,
+        activeIndicatorColor = MaterialTheme.colorScheme.primary,
+        inactiveIndicatorColor = MaterialTheme.colorScheme.secondary
+    )
 }

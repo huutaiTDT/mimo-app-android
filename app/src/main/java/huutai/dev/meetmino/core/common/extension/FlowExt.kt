@@ -4,6 +4,7 @@ import huutai.dev.meetmino.core.common.decorator.Result
 import huutai.dev.meetmino.core.common.decorator.UiState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.catch
 
 /**
  * Convert Flow<Result<T>> to Flow<UiState<T>>
@@ -27,8 +28,3 @@ fun <T> Flow<UiState<T>>.catchToError(
 }.catch { exception ->
     emit(UiState.Error(exception.message ?: fallbackMessage))
 }
-
-/**
- * Import for catch extension
- */
-import kotlinx.coroutines.flow.catch

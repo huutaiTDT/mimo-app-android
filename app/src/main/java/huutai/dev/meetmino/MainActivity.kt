@@ -13,6 +13,7 @@ import androidx.compose.animation.SizeTransform
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.animation.with
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
@@ -28,11 +29,11 @@ import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import dagger.hilt.android.AndroidEntryPoint
 import huutai.dev.meetmino.helper.NetworkStateMonitor
 import huutai.dev.meetmino.helper.OnboardingUtils
 import huutai.dev.meetmino.screen.OnboardingScreen
 import huutai.dev.meetmino.theme.HodosTheme
-import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
 val LocalNavController = staticCompositionLocalOf<NavHostController> {
@@ -118,7 +119,7 @@ class MainActivity : ComponentActivity() {
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
-    @OptIn(ExperimentalAnimationApi::class)
+    @OptIn(ExperimentalAnimationApi::class, ExperimentalFoundationApi::class)
     @Composable
     private fun ShowOnboardingScreen() {
         val navController = LocalNavController.current

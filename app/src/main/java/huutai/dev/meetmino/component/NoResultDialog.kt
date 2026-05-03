@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
@@ -18,8 +17,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import huutai.dev.meetmino.R
-import huutai.dev.meetmino.helper.getScreenHeight
 import huutai.dev.meetmino.helper.getScreenWidth
 
 
@@ -36,14 +33,6 @@ fun NoResultDialog(
             modifier = Modifier
                 .fillMaxSize()
         ) {
-
-            AnimateImg(
-                source = R.raw.nores_ani,
-                modifier = Modifier.height(
-                    (getScreenHeight() / 2).dp
-                )
-            )
-            Seprate(height = 10)
             Box(modifier = Modifier.padding(20.dp)) {
                 Column(
                     modifier = Modifier
@@ -56,19 +45,6 @@ fun NoResultDialog(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.Center
                 ) {
-
-                    Title(
-                        value = title,
-                        size = 24,
-                        textAlign = TextAlign.Center,
-                        fontWeight = FontWeight.ExtraBold
-                    )
-                    Seprate(height = 10)
-                    BtnPrimary(
-                        minWidth = getScreenWidth(),
-                        title = "Close",
-                        onClick = onDismiss,
-                    )
 
                 }
             }

@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <color name="background">#fff</color>
-    <color name="background_gradient_end">#DDDDDD</color>
-    <color name="background_gradient_start">#000000</color>
-    <color name="black">#FF000000</color>
-    <color name="black_trans">#4A000000</color>
-    <color name="bottom_bar">#E8F4FE</color>
-    <color name="bright_blue">#40C2DD</color>
-    <color name="default_background">#3d3d3d</color>
-    <color name="fastlane_background">#0096a6</color>
-    <color name="icon_default">#A8A8A8</color>
-    <color name="primary">#009EE2</color>
-    <color name="search_opaque">#ffaa3f</color>
-    <color name="selected_background">#ffaa3f</color>
-    <color name="transparent">#00000000</color>
-    <color name="white">#fff</color>
-    <dimen name="fab_margin">16dp</dimen>
     <string name="Bell">Bell</string>
     <string name="Heart">Heart</string>
     <string name="Home">Home</string>
@@ -37,11 +21,6 @@
     <string name="project_id" translatable="false">wise-news-2a915</string>
     <string name="search_for_location">Search for location</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <style name="Base.Theme.Meetmino" parent="Theme.Material3.DayNight">
-        <item name="android:statusBarColor">@android:color/white</item>
-        
-        <item name="android:windowLightStatusBar">true</item>
-    </style>
     <style name="Theme.MeetMino" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
@@ -49,16 +28,5 @@
         <item name="windowSplashScreenBackground">@android:color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@android:drawable/sym_def_app_icon</item>
         <item name="postSplashScreenTheme">@style/Theme.MeetMino</item>
-    </style>
-    <style name="Theme.Meetmino" parent="Base.Theme.Meetmino"/>
-    <style name="Theme.MyApp" parent="Theme.Material3.DayNight">
-        <item name="colorPrimary">#6200EE</item>
-        <item name="colorPrimaryVariant">#3700B3</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
-    </style>
-    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/hodos</item>
-        <item name="postSplashScreenTheme">@style/Theme.Meetmino</item>
     </style>
 </resources>

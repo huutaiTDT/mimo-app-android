@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-93:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-92:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/genny/.gradle/caches/8.9/transforms/53d26318a1b99d030dbf8cf39c40a412/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/62fc6677e9fb38ba1ffeab38bfba84e5/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

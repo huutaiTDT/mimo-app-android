@@ -13,7 +13,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import huutai.dev.meetmino.screen.predict.BottomSheetContent
 
 
 @Composable
@@ -58,17 +57,17 @@ fun MainLayout(
 
         // Optional Bottom Sheet
         if (isVisibleBottomSheet?.value == true) {
-            BottomSheetContent(
-                onDismiss = onCloseBottomSheet,
-                bottomSheetContent = bottomSheetContent
-            )
+//            BottomSheetContent(
+//                onDismiss = onCloseBottomSheet,
+//                bottomSheetContent = bottomSheetContent
+//            )
         }
 
         // Optional Loading Dialog
-        LoadingDialog(isLoading = isLoading)
+//        LoadingDialog(isLoading = isLoading)
 
         if(header == true) {
-            Header(title = title)
+          //  Header(title = title)
         }
     }
 }

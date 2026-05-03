@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-93:/values-v28/values-v28.xml",
+            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-92:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/genny/.gradle/caches/8.9/transforms/bd853092ec30bd1ef04d6631f6b8c5dc/transformed/material-1.12.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/de5de467eee2d15d20b17c55ed8c26d2/transformed/material-1.12.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/genny/.gradle/caches/8.9/transforms/53d26318a1b99d030dbf8cf39c40a412/transformed/appcompat-1.6.1/res/values-v28/values-v28.xml",
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/62fc6677e9fb38ba1ffeab38bfba84e5/transformed/appcompat-1.6.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

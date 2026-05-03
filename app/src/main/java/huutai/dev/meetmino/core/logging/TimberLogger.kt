@@ -1,21 +1,20 @@
 package huutai.dev.meetmino.core.logging
 
 import android.util.Log
+import huutai.dev.meetmino.BuildConfig
 import timber.log.Timber
 
 /**
- * Timber-based implementation of Logger interface.
- * Handles debug and release logging appropriately.
+ * Timber-based implementation of Logger interface
  */
 class TimberLogger : Logger {
 
     init {
-        // Initialize Timber with appropriate trees
-        val isDebug = huutai.dev.tracking.BuildConfig.DEBUG
-        if (!Timber.forest().isEmpty()) {
-            Timber.uproot() // Clear any existing trees
-        }
-        
+        val isDebug = BuildConfig.DEBUG
+
+        // Remove all planted trees first
+        Timber.uprootAll()
+
         if (isDebug) {
             Timber.plant(DebugTree())
         } else {
@@ -35,7 +34,11 @@ class TimberLogger : Logger {
         Timber.tag(tag).w(message)
     }
 
-    override fun e(tag: String, message: String, throwable: Throwable?) {
+    override fun e(
+        tag: String,
+        message: String,
+        throwable: Throwable?
+    ) {
         if (throwable != null) {
             Timber.tag(tag).e(throwable, message)
         } else {
@@ -47,29 +50,53 @@ class TimberLogger : Logger {
         Timber.tag(tag).v(message)
     }
 
-    override fun log(priority: Int, tag: String, message: String, throwable: Throwable?) {
-        Timber.log(priority, throwable, message, tag)
-    }
+    override fun log(
+        priority: Int,
+        tag: String,
+        message: String,
+        throwable: Throwable?
+    ) {
+        Timber.tag(tag)
 
-    /**
-     * Debug tree - logs everything with full details
-     */
-    private class DebugTree : Timber.Tree() {
-        override fun log(priority: Int, tag: String?, message: String, t: Throwable?) {
-            Log.println(priority, tag, message)
-            if (t != null) {
-                t.printStackTrace()
-            }
+        if (throwable != null) {
+            Timber.log(priority, throwable, message)
+        } else {
+            Timber.log(priority, message)
         }
     }
 
     /**
-     * Release tree - logs only warnings and errors, no stack traces for security
+     * Debug tree
+     */
+    private class DebugTree : Timber.Tree() {
+        override fun log(
+            priority: Int,
+            tag: String?,
+            message: String,
+            t: Throwable?
+        ) {
+            Log.println(priority, tag ?: "Debug", message)
+
+            t?.printStackTrace()
+        }
+    }
+
+    /**
+     * Release tree
      */
     private class ReleaseTree : Timber.Tree() {
-        override fun log(priority: Int, tag: String?, message: String, t: Throwable?) {
-            if (priority == Log.WARN || priority == Log.ERROR) {
-                Log.println(priority, tag ?: "Release", message)
+        override fun log(
+            priority: Int,
+            tag: String?,
+            message: String,
+            t: Throwable?
+        ) {
+            if (priority >= Log.WARN) {
+                Log.println(
+                    priority,
+                    tag ?: "Release",
+                    message
+                )
             }
         }
     }

@@ -13,10 +13,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import huutai.dev.meetmino.component.BottomBarComponent
-import huutai.dev.meetmino.screen.home.HomeScreen
-import huutai.dev.meetmino.screen.planing.TripUserScreen
-import huutai.dev.meetmino.screen.profile.ProfileScreen
-import huutai.dev.meetmino.screen.post.PostScreen
 import huutai.dev.meetmino.theme.HodosTheme
 
 @Composable
@@ -52,11 +48,11 @@ fun NavigationGraph(navController: NavHostController) {
         navController = navController,
         startDestination = "home"
     ) {
-        composable(BottomBarRoute.Home.route) { HomeScreen() }
-        composable(BottomBarRoute.Post.route) { PostScreen() }
-        composable(BottomBarRoute.Trip.route) { TripUserScreen(
+        composable(BottomBarRoute.Home.route) { ComingSoonScreen() }
+        composable(BottomBarRoute.Post.route) { ComingSoonScreen() }
+        composable(BottomBarRoute.Trip.route) { ComingSoonScreen(
         ) }
         composable(BottomBarRoute.Event.route) { ComingSoonScreen() }
-        composable(BottomBarRoute.Profile.route) { ProfileScreen() }
+        composable(BottomBarRoute.Profile.route) { ComingSoonScreen() }
     }
 }

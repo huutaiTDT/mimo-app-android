@@ -14,17 +14,17 @@ import retrofit2.http.POST
 
 interface AuthService {
     @POST("auth/sign-up")
-    suspend fun signUp(@Body() body: RegisterModel): Response<Any>
+    suspend fun signUp(@Body() body: RegisterModel): Response<String>
 
 
     @POST("auth/sign-in")
     suspend fun login(@Body() body: LoginModel): AuthData
 
     @POST("auth/resend-verification-code")
-    suspend fun resendVerCode(@Body() body: ResendCodeModel): Response<Any>
+    suspend fun resendVerCode(@Body() body: ResendCodeModel): Response<String>
 
     @POST("auth/verify")
-    suspend fun verify(@Body() body: VerifyModel): Response<Any>
+    suspend fun verify(@Body() body: VerifyModel): Response<String>
 
     @POST("user/detail")
     suspend fun userDetail(@Body() body: GetUserInfoModel): AuthData

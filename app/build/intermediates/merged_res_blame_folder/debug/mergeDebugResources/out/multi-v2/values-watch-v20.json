@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-93:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-92:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/genny/.gradle/caches/8.9/transforms/de7772c384754caf7f86f228553d6c86/transformed/core-splashscreen-1.0.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/d17ed704811810c6bd29230b44e3c915/transformed/core-splashscreen-1.0.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/genny/.gradle/caches/8.9/transforms/53d26318a1b99d030dbf8cf39c40a412/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/62fc6677e9fb38ba1ffeab38bfba84e5/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

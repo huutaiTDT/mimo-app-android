@@ -10,19 +10,19 @@ sealed class OnboardingModel(
 ) {
 
     data object FirstPage : OnboardingModel(
-        image = R.drawable.ob_1,
+        image = R.mipmap.ob_1,
         title = "Your Reading Partner",
         description = "Read as many book as you want, anywhere you want"
     )
 
     data object SecondPage : OnboardingModel(
-        image = R.drawable.ob_2,
+        image = R.mipmap.ob_2,
         title = "Your Personal Library",
         description = "Organize books in different ways, make your own library"
     )
 
     data object ThirdPages : OnboardingModel(
-        image = R.drawable.ob_3,
+        image = R.mipmap.ob_3,
         title = "Search and Filter",
         description = "Get any book you want within a simple search across your device"
     )

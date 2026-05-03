@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.compose.compiler)
 
     kotlin("kapt")
 
@@ -84,17 +85,15 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-
-    // IMPORTANT:
-    // If using Kotlin 2.1+, use Compose Compiler Plugin instead.
-    // If Kotlin 1.9.x keep this:
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.15"
-    }
 }
 
 hilt {
     enableAggregatingTask = false
+}
+
+kapt {
+    correctErrorTypes = true
+    useBuildCache = true
 }
 
 dependencies {
@@ -176,7 +175,6 @@ dependencies {
     // IMAGE
     // ---------------------------------------------------
     implementation("io.coil-kt:coil-compose:2.7.0")
-    implementation("com.github.bumptech.glide:glide:4.16.0")
 
     // ---------------------------------------------------
     // MAP

@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class huutai.dev.meetmino.view_model.AuthViewModel
