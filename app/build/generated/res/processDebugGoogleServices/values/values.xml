@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">26946717632</string>
+    <string name="google_api_key" translatable="false">AIzaSyCoSrr--6FlwA-8_Dalvf_OM_FNa4Wp358</string>
+    <string name="google_app_id" translatable="false">1:26946717632:android:6ef8a758deb54fe67b2a25</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCoSrr--6FlwA-8_Dalvf_OM_FNa4Wp358</string>
+    <string name="google_storage_bucket" translatable="false">wise-news-2a915.firebasestorage.app</string>
+    <string name="project_id" translatable="false">wise-news-2a915</string>
+</resources>

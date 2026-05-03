@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-84:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/53d26318a1b99d030dbf8cf39c40a412/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/Users/genny/WORK/TRACKING-APP/android/app/src/main/res/values-land/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "41",
+                        "endOffsets": "301"
+                    }
+                }
+            ]
+        }
+    ]
+}

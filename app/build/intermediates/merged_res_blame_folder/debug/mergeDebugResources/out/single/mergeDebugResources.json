@@ -1,0 +1,666 @@
+[
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_home_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/home_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_home.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/home.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_img_placeholder2.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/img_placeholder2.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_activity_main.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/activity_main.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/xml_network_security_config.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_location_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/location_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_google_color_svgrepo_com.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/google_color_svgrepo_com.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_slide_out_top.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/slide_out_top.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_img_placholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/img_placholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_img_placeholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/img_placeholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_search_alt_svgrepo_com.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/search_alt_svgrepo_com.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_onboaring_1_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/onboaring_1_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_img_placeholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/img_placeholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/xml_backup_rules.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_profile_svgrepo_com.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/profile_svgrepo_com.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_onboaring_1.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/onboaring_1.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_comming_soon.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/comming_soon.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_ar_img.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/ar_img.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_onboaring_1_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/onboaring_1_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_home_banner.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/home_banner.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_ar.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/ar.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_success.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/success.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_ar.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/ar.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ar.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ar.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_ar_img.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/ar_img.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_img_placholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/img_placholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_collect_informatioon.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/collect_informatioon.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_activity.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/activity.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_slide_in_right.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_img_placeholder2.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/img_placeholder2.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_img_container.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/img_container.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_empty.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/empty.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_classcifical_feature.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/classcifical_feature.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_ar_img_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/ar_img_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_img_placholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/img_placholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_location.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/location.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_heart.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/heart.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_ar_img_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/ar_img_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_onboaring_1.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/onboaring_1.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_profile_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/profile_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_onboarding_1.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/onboarding_1.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_bell_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/bell_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_img_placeholder_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/img_placeholder_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_hodos.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/hodos.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-anydpi-v26_ar_img_round.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-anydpi-v26/ar_img_round.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_slide_in_left.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_onboaring_1.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/onboaring_1.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_onboaring_1_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/onboaring_1_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_rounded_bg.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/rounded_bg.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ob_3.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ob_3.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_onboaring_1_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/onboaring_1_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_trip.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/trip.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_fragment_activity.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/fragment_activity.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_predict_bg.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/predict_bg.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_primary_button.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/primary_button.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_ar_img.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/ar_img.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_ar_img_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/ar_img_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_event.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/event.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_ar_img_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/ar_img_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_typing.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/typing.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_slide_out_left.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_activity_onboarding.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_ar_img_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/ar_img_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_fragment_profile.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_img_placeholder2.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/img_placeholder2.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_save_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/save_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_person.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/person.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_splash_log.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/splash_log.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_fragment_onboarding.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_error.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/error.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_slide_out_right.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ob_1.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ob_1.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_ar_img_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/ar_img_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_plus.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/plus.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_onboaring_1_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/onboaring_1_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_img_placeholder_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/img_placeholder_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_fellow_activity_21_svgrepo_com.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/fellow_activity_21_svgrepo_com.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_default_background.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/default_background.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-anydpi-v26_ar_img.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-anydpi-v26/ar_img.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_onboaring_1.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/onboaring_1.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ar_img_background.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ar_img_background.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_ar_img.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/ar_img.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_onboaring_1_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/onboaring_1_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_onboaring_1_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/onboaring_1_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/menu_bottom_nav_menu.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_ar.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/ar.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_fragment_search.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/navigation_nav_graph.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_img_placeholder2.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/img_placeholder2.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_slide_in_bottom.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_splash_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/splash_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_fragment_home.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_home_alt_svgrepo_com.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/home_alt_svgrepo_com.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_message_buble.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/message_buble.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_img_placeholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/img_placeholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_save_loca_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/save_loca_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_onboaring_1.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/onboaring_1.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_login_req.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/login_req.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_img_placeholder2.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/img_placeholder2.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ic_launcher_background.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_loading.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/loading.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_ar.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/ar.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_img_placeholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/img_placeholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_ar_img_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/ar_img_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_more_feature.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/more_feature.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_img_placholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/img_placholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_planning_fea.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/planning_fea.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_bottom_navigate.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/bottom_navigate.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_onboarding_3.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/onboarding_3.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ar_img.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ar_img.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_img_placeholder_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/img_placeholder_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_activity_base.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/activity_base.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_ar_img_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/ar_img_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_onboaring_1_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/onboaring_1_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_error.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/error.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-anydpi-v26_onboaring_1_round.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-anydpi-v26/onboaring_1_round.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_ob_2.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/ob_2.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/color_bottom_nav_selector.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/color/bottom_nav_selector.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_login_bg.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/login_bg.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_search_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/search_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_ar_img_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/ar_img_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_img_placeholder_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/img_placeholder_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_splash.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/splash.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_img_placeholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/img_placeholder.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_fade_out.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/fade_out.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_face_logo.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/face_logo.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_chat_ai_fea.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/chat_ai_fea.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_email_icon.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/email_icon.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-anydpi-v26_onboaring_1.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-anydpi-v26/onboaring_1.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_nores_ani.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/nores_ani.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxxhdpi_ar_img.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxxhdpi/ar_img.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_ar.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/ar.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_content_base.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/content_base.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/anim_fade_in.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/anim/fade_in.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_onboaring_1_background.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/onboaring_1_background.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_bell.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/bell.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_onboarding_2.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/onboarding_2.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_img_placeholder.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/img_placeholder.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_lock_svgrepo_com.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/lock_svgrepo_com.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-hdpi_onboaring_1_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-hdpi/onboaring_1_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/xml_data_extraction_rules.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_onboaring_1_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/onboaring_1_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xhdpi_ar_img_foreground.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xhdpi/ar_img_foreground.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/layout_activity_home.xml.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/layout/activity_home.xml"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/raw_predict_anim.json.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/raw/predict_anim.json"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/drawable_movie.png.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/drawable/movie.png"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-mdpi_img_placeholder_round.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-mdpi/img_placeholder_round.webp"
+    },
+    {
+        "merged": "huutai.dev.meetmino.app-debug-86:/mipmap-xxhdpi_img_placholder.webp.flat",
+        "source": "huutai.dev.meetmino.app-main-88:/mipmap-xxhdpi/img_placholder.webp"
+    }
+]

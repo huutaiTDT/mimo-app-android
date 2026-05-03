@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_base.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_onboarding.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/content_base.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_activity.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_onboarding.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/img_container.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml">
+        <config>
+          <theme>@style/Theme.HODOS_FINAL_ANDROID</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51815043-ec27-45dc-9aea-583529e231fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/MyApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/ComingSoonScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/hodos_final_android/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/tracking/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/NavHost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/NavHost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/AnimateImg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/AnimateImg.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/BottomBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/BottomBar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/BottomBar/BellColorButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/BottomBar/BellColorButton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/BottomBar/ColorButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/BottomBar/ColorButton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/BottomSheet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/BottomSheet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Button.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Button.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/CalenderView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/CalenderView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Carousel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Carousel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Column.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Column.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/CustomPullRefreshIndicator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/CustomPullRefreshIndicator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Empty.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Empty.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Header.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Header.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/HighLightTextContent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/HighLightTextContent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Image.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/IndicatorUI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/IndicatorUI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/InfoDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/InfoDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Input.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Input.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/LinearCardBg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/LinearCardBg.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Loading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Loading.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/LoadingDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/LoadingDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/MainLayout.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/MainLayout.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/NoResultDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/NoResultDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Notify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Notify.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/PlanningCard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/PlanningCard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/PostItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/PostItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/PredictDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/PredictDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/ProfileAvatar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/ProfileAvatar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/RequireLogin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/RequireLogin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Row.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Row.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Seprate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Seprate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/SkeletonList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/SkeletonList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Text.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Text.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Toast/CustomToast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Toast/CustomToast.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/Toast/ToastManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Toast/ToastManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/TravelCard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/TravelCard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/UserGalleryView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/UserGalleryView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component/VideoPlay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/VideoPlay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/di/EntryPoint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/di/EntryPoint.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/helper/Auth.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/helper/Auth.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/helper/NetworkStateMonitor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/helper/NetworkStateMonitor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/helper/RememberDebouncedState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/helper/RememberDebouncedState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/helper/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/helper/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/helper/ScreenTransitionHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/helper/ScreenTransitionHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/helper/ThemeHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/helper/ThemeHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/helper/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/helper/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/mock/location.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/mock/location.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Auth.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Auth.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Category.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Category.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/ChatBot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/ChatBot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Dashboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Dashboard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Location.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Location.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/LocationDetail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/LocationDetail.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/New.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/New.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/OnBoaringModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/OnBoaringModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Pagination.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Pagination.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Planning.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Planning.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Post.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/PricingPlan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/PricingPlan.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/QuestionForPlan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/QuestionForPlan.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/Route.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Route.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/SearchData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/SearchData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/model/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/repository/AuthRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/repository/AuthRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/repository/ChatBotRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/repository/ChatBotRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/repository/CommonRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/repository/CommonRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/repository/LocationRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/repository/LocationRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/repository/PlanTripRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/repository/PlanTripRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/repository/PostRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/repository/PostRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/ComingSoonScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/Error.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/Error.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/GalleryScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/GalleryScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/MainScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/MainScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/OnBoaringScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/OnBoaringScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/RequireLogin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/RequireLogin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/auth/EmailVerificationScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/auth/EmailVerificationScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/auth/LoginScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/auth/LoginScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/auth/RegisterScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/auth/RegisterScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/chat/ChatDashboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/chat/ChatDashboard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/chat/ChatRoom.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/chat/ChatRoom.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/home/Banner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/home/Banner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/home/DescriptionClassical.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/home/DescriptionClassical.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/home/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/home/HomeScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/home/Searchbar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/home/Searchbar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/location/Detail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/location/Detail.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/location/DirectionScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/location/DirectionScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/location/GalleryPreview.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/location/GalleryPreview.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/location/Tour.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/location/Tour.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/notification/NotificationScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/notification/NotificationScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/CreatePlanning.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/CreatePlanning.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/CreatePlanningResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/CreatePlanningResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/DetailTrip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/DetailTrip.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/EditPlanning.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/EditPlanning.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/Planning.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/Planning.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/PlanningDetail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/PlanningDetail.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/TripDirection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/TripDirection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/TripUserScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/TripUserScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/components/DaySelector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/components/DaySelector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/components/MapView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/components/MapView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/components/TripActivityCardMap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/components/TripActivityCardMap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/components/TripActivityCarousel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/components/TripActivityCarousel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/components/TripHeader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/components/TripHeader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing/components/TripItinerary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/planing/components/TripItinerary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/post/CreatePostScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/post/CreatePostScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/post/EnhancedCaptionField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/post/EnhancedCaptionField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/post/PostDetailDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/post/PostDetailDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/post/PostDetailScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/post/PostDetailScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/post/PostScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/post/PostScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/predict/Predict.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/predict/Predict.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/predict/PredictResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/predict/PredictResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/profile/DialogConfirmLogout.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/profile/DialogConfirmLogout.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/profile/PremiumUpgradeCard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/profile/PremiumUpgradeCard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/profile/PremiumUpgradeNavigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/profile/PremiumUpgradeNavigation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/profile/ProfileScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/profile/ProfileScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/profile/SubscriptionManagementCard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/profile/SubscriptionManagementCard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/search/SearchScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/search/SearchScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/AuthService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/AuthService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/ChatBotService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/ChatBotService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/DashboardService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/DashboardService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/LocationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/LocationService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/ModelAi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/ModelAi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/PlanTripService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/PlanTripService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/PostService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/PostService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/UserSubscriptionService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/UserSubscriptionService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/service/api/NetWorkModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/service/api/NetWorkModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/theme/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/AppViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/AppViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/AuthViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/AuthViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/Base.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/Base.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/ChatViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/ChatViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/HomeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/LocationTagViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/LocationTagViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/LocationViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/LocationViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/PlanTripViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/PlanTripViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/PostViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/PostViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/UserSubscriptionModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/UserSubscriptionModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/view_model/UserViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/UserViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/hodos_final_android/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/tracking/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/genny/.android/avd/Pixel_7_Pro_API_33.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Hodos" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Hodos" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/release-key.jks" />
+    <option name="KEY_ALIAS" value="release-key" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/NavHost.kt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/profile/ProfileScreen.kt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tfY0W7oAngGMQwjFP9b0vaO5XH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.HODOS.executor": "Run",
+    "Android App.app.executor": "Run",
+    "ApkExportedModule": "Hodos.app",
+    "Compose Preview.DestinationDetailScreenPreview.executor": "Run",
+    "Compose Preview.LoginScreen.executor": "Run",
+    "Compose Preview.MainScreen (1).executor": "Run",
+    "Compose Preview.MainScreen.executor": "Run",
+    "Compose Preview.PreviewNotifyPopup.executor": "Run",
+    "ExportApk.ApkPathForHodos.app": "/Users/genny/WORK/PERSONAL/hodos-kotlin-android/app",
+    "ResourceManagerPrefKey.ResourceType": "DRAWABLE",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ScreenshotViewer.SavePath": "/Users/genny/Desktop",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "2906",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/genny/WORK/TRACKING-APP/android",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  },
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/profile" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/planing" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/location" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/post" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/component" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/hodos_final_android/screen/predict" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.hodos_final_android.service" />
+      <recent name="com.example.hodos_final_android.activity" />
+    </key>
+    <key name="android.template.-2047156705">
+      <recent name="com.example.hodos_final_android.activity.app.home" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.hodos_final_android.service" />
+      <recent name="com.example.hodos_final_android.view_model" />
+      <recent name="com.example.hodos_final_android.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="HODOS" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Hodos.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DestinationDetailScreenPreview" type="ComposePreviewRunConfiguration" temporary="true">
+      <module name="Hodos.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="--es composable com.example.hodos_final_android.screen.main.planing.PlanningDetailKt.DestinationDetailScreenPreview" />
+      <option name="MODE" value="specific_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="androidx.compose.ui.tooling.PreviewActivity" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="true" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <compose-preview-run-configuration composable-fqn="com.example.hodos_final_android.screen.main.planing.PlanningDetailKt.DestinationDetailScreenPreview" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginScreen" type="ComposePreviewRunConfiguration" singleton="false" temporary="true">
+      <module name="Hodos.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="--es composable com.example.hodos_final_android.screen.auth.LoginScreenKt.LoginScreen" />
+      <option name="MODE" value="specific_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="androidx.compose.ui.tooling.PreviewActivity" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="true" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <compose-preview-run-configuration composable-fqn="com.example.hodos_final_android.screen.auth.LoginScreenKt.LoginScreen" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainScreen (1)" type="ComposePreviewRunConfiguration" temporary="true">
+      <module name="Hodos.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="--es composable com.example.hodos_final_android.component.VideoPlayKt.MainScreen" />
+      <option name="MODE" value="specific_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="androidx.compose.ui.tooling.PreviewActivity" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="true" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <compose-preview-run-configuration composable-fqn="com.example.hodos_final_android.component.VideoPlayKt.MainScreen" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainScreen" type="ComposePreviewRunConfiguration" singleton="false" temporary="true">
+      <module name="HODOS_FINAL_ANDROID.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="--es composable com.example.hodos_final_android.activity.MainActivityKt.MainScreen" />
+      <option name="MODE" value="specific_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="androidx.compose.ui.tooling.PreviewActivity" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="true" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <compose-preview-run-configuration composable-fqn="com.example.hodos_final_android.activity.MainActivityKt.MainScreen" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreviewNotifyPopup" type="ComposePreviewRunConfiguration" temporary="true">
+      <module name="Hodos.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="--es composable com.example.hodos_final_android.component.NotifyKt.PreviewNotifyPopup" />
+      <option name="MODE" value="specific_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="androidx.compose.ui.tooling.PreviewActivity" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="true" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <compose-preview-run-configuration composable-fqn="com.example.hodos_final_android.component.NotifyKt.PreviewNotifyPopup" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Compose Preview.PreviewNotifyPopup" />
+        <item itemvalue="Compose Preview.DestinationDetailScreenPreview" />
+        <item itemvalue="Compose Preview.MainScreen (1)" />
+        <item itemvalue="Compose Preview.LoginScreen" />
+        <item itemvalue="Compose Preview.MainScreen" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51815043-ec27-45dc-9aea-583529e231fa" name="Changes" comment="" />
+      <created>1740744372291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740744372291</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="compose-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tracking/screen/OnBoaringScreen.kt</url>
+          <line>2</line>
+          <properties>
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="compose-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tracking/component/Button.kt</url>
+          <line>145</line>
+          <properties method="IconBtn">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tracking/model/Route.kt</url>
+          <line>2</line>
+          <properties class="com.example.tracking.model.Route" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tracking/view_model/LocationViewModel.kt</url>
+          <line>34</line>
+          <properties class="com.example.tracking.view_model.LocationViewModel" method="pagination">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

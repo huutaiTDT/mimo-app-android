@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "huutai.dev.meetmino.app-mergeDebugResources-84:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/genny/.gradle/caches/8.9/transforms/53d26318a1b99d030dbf8cf39c40a412/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}
