@@ -1,12 +1,15 @@
 package huutai.dev.meetmino.core.design.component
 
-import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
@@ -14,7 +17,6 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import huutai.dev.meetmino.core.design.theme.AppElevation
-import huutai.dev.meetmino.core.design.theme.AppGradients
 import huutai.dev.meetmino.core.design.theme.AppShapes
 import huutai.dev.meetmino.core.design.theme.AppTheme
 import huutai.dev.meetmino.core.design.theme.Spacing
@@ -32,33 +34,58 @@ fun AppPrimaryButton(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
     enabled: Boolean = true,
-    isLoading: Boolean = false
+    isLoading: Boolean = false,
+    useGradient: Boolean = true
 ) {
     Button(
         onClick = onClick,
-        modifier = modifier,
         enabled = enabled && !isLoading,
+        modifier = modifier,
         shape = AppShapes.Pill,
         colors = ButtonDefaults.buttonColors(
-            containerColor = AppTheme.colors.primary,
+            containerColor = Color.Transparent, // 👈 quan trọng
             disabledContainerColor = AppTheme.colors.disabled
         ),
         elevation = ButtonDefaults.buttonElevation(
             defaultElevation = AppElevation.Small,
             pressedElevation = AppElevation.Medium
         ),
-        contentPadding = PaddingValues(
-            horizontal = Spacing.buttonPaddingHorizontal,
-            vertical = 12.dp
-        )
+        contentPadding = PaddingValues() // 👈 control bên trong
     ) {
-        Text(
-            text = if (isLoading) "Loading..." else text,
-            style = TextStyle(
-                fontSize = 16.sp
-            ),
-            color = if (enabled) Color.White else AppTheme.colors.textHint
-        )
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(
+                    if (useGradient && enabled) {
+                        Brush.horizontalGradient(
+                            listOf(
+                                AppTheme.colors.primary,
+                                AppTheme.colors.primaryVariant
+                            )
+                        )
+                    } else {
+                        Brush.horizontalGradient(
+                            listOf(
+                                AppTheme.colors.disabled,
+                                AppTheme.colors.disabled
+                            )
+                        )
+                    }
+                )
+                .padding(
+                    horizontal = Spacing.buttonPaddingHorizontal,
+                    vertical = 12.dp
+                ),
+            contentAlignment = Alignment.Center
+        ) {
+
+            Text(
+                text = if (isLoading) "Loading..." else text,
+                style = TextStyle(fontSize = 16.sp),
+                color = Color.White
+            )
+        }
     }
 }
 
@@ -73,7 +100,8 @@ fun AppSecondaryButton(
     text: String,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
-    enabled: Boolean = true
+    enabled: Boolean = true,
+    isLoading: Boolean = false
 ) {
     Button(
         onClick = onClick,
@@ -86,19 +114,44 @@ fun AppSecondaryButton(
             disabledContentColor = AppTheme.colors.disabled
         ),
         elevation = ButtonDefaults.buttonElevation(
-            defaultElevation = 0.dp
+            defaultElevation = AppElevation.Small,
+            pressedElevation = AppElevation.Medium
         ),
-        contentPadding = PaddingValues(
-            horizontal = Spacing.buttonPaddingHorizontal,
-            vertical = 12.dp
-        )
+        contentPadding = PaddingValues() // 👈
     ) {
-        Text(
-            text = text,
-            style = TextStyle(
-                fontSize = 16.sp
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(
+                    if (enabled) {
+                        Brush.horizontalGradient(
+                            listOf(
+                                AppTheme.colors.background,
+                                AppTheme.colors.background
+                            )
+                        )
+                    } else {
+                        Brush.horizontalGradient(
+                            listOf(
+                                AppTheme.colors.disabled,
+                                AppTheme.colors.disabled
+                            )
+                        )
+                    }
+                )
+                .padding(
+                    horizontal = Spacing.buttonPaddingHorizontal,
+                    vertical = 12.dp
+                ),
+            contentAlignment = Alignment.Center
+        ) {
+
+            Text(
+                text = if (isLoading) "Loading..." else text,
+                style = TextStyle(fontSize = 16.sp),
+                color = AppTheme.colors.primary
             )
-        )
+        }
     }
 }
 
@@ -173,3 +226,5 @@ fun AppErrorButton(
         )
     }
 }
+
+

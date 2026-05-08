@@ -1,5 +1,6 @@
 package huutai.dev.meetmino;
 
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import androidx.activity.ComponentActivity;

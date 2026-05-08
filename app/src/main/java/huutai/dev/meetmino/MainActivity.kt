@@ -1,5 +1,6 @@
 package huutai.dev.meetmino
 
+import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -33,8 +34,8 @@ import dagger.hilt.android.AndroidEntryPoint
 import huutai.dev.meetmino.helper.NetworkStateMonitor
 import huutai.dev.meetmino.helper.OnboardingUtils
 import huutai.dev.meetmino.screen.OnboardingScreen
+import huutai.dev.meetmino.screen.SplashScreen
 import huutai.dev.meetmino.theme.HodosTheme
-import kotlinx.coroutines.launch
 
 val LocalNavController = staticCompositionLocalOf<NavHostController> {
     error("NavController not provided")
@@ -44,6 +45,7 @@ val LocalNavController = staticCompositionLocalOf<NavHostController> {
 class MainActivity : ComponentActivity() {
     private lateinit var networkMonitor: NetworkStateMonitor
     private val onboardingUtils by lazy { OnboardingUtils(this) }
+    @OptIn(ExperimentalAnimationApi::class)
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,65 +55,41 @@ class MainActivity : ComponentActivity() {
         installSplashScreen()
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.light(
-                android.graphics.Color.TRANSPARENT,
-                android.graphics.Color.TRANSPARENT
+                Color.TRANSPARENT,
+                Color.TRANSPARENT
             )
         )
 
         setContent {
             val navController = rememberNavController()
             val isNetworkAvailable by networkMonitor.isConnected.collectAsState()
+            var showSplash by remember { mutableStateOf(true) }
 
             HodosTheme {
                 CompositionLocalProvider(LocalNavController provides navController) {
-                    Box(modifier = Modifier.fillMaxSize()){
-                        if (onboardingUtils.isOnboardingCompleted()) {
-                            AppNavHost(navController)
+                    AnimatedContent(
+                        targetState = showSplash,
+                        transitionSpec = {
+                            slideInHorizontally(initialOffsetX = { it }) with
+                                    slideOutHorizontally(targetOffsetX = { -it }) using
+                                    SizeTransform(clip = false)
+                        }, label = ""
+                    ) { isSplash ->
+                        if (isSplash) {
+                            SplashScreen(
+                                onNavigate = {
+                                    showSplash = false
+                                }
+                            )
                         } else {
-                            ShowOnboardingScreen()
-                        }
-
-                        Box(modifier = Modifier.fillMaxSize()) {
-                            // Nội dung chính app (onboarding hoặc AppNavHost)
-                            if (onboardingUtils.isOnboardingCompleted()) {
-                                AppNavHost(navController)
-                            } else {
-                                ShowOnboardingScreen()
+                            Box(modifier = Modifier.fillMaxSize()) {
+                                if (onboardingUtils.isOnboardingCompleted()) {
+                                    AppNavHost(navController)
+                                } else {
+                                    ShowOnboardingScreen(navController, onboardingUtils)
+                                }
                             }
-
-//                            Box(
-//                                modifier = Modifier
-//                                    .fillMaxWidth()
-//                                    .padding(bottom = 0.dp)
-//                                    .align(Alignment.BottomCenter) // Chỉ dùng được nếu trong BoxScope
-//                            ) {
-//                                AnimatedVisibility(
-//                                    visible = !isNetworkAvailable,
-//                                    enter = slideInVertically(
-//                                        initialOffsetY = { it } // Từ dưới lên
-//                                    ) + fadeIn(),
-//                                    exit = slideOutVertically(
-//                                        targetOffsetY = { it } // Trượt xuống
-//                                    ) + fadeOut()
-//                                ) {
-//                                    Box(
-//                                        modifier = Modifier
-//                                            .fillMaxWidth()
-//                                            .background(MaterialTheme.colorScheme.primary)
-//                                    ) {
-//                                        Row(modifier = Modifier.padding(10.dp)) {
-//                                            Txt(
-//                                                value = "Network is not connected!",
-//                                                fontWeight = FontWeight.Bold,
-//                                                color = MaterialTheme.colorScheme.background
-//                                            )
-//                                        }
-//                                    }
-//                                }
-//                            }
                         }
-
-
                     }
                 }
             }
@@ -121,30 +99,15 @@ class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     @OptIn(ExperimentalAnimationApi::class, ExperimentalFoundationApi::class)
     @Composable
-    private fun ShowOnboardingScreen() {
-        val navController = LocalNavController.current
+    private fun ShowOnboardingScreen(
+        navController: NavHostController,
+        onboardingUtils: OnboardingUtils
+    ) {
         val scope = rememberCoroutineScope()
-        var showOnboarding by remember { mutableStateOf(true) }
 
-        AnimatedContent(
-            targetState = showOnboarding,
-            transitionSpec = {
-                slideInHorizontally(initialOffsetX = { it }) with
-                        slideOutHorizontally(targetOffsetX = { -it }) using
-                        SizeTransform(clip = false)
-            }
-        ) { isOnboarding ->
-            if (isOnboarding) {
-                OnboardingScreen {
-                    onboardingUtils.setOnboardingCompleted()
-                    scope.launch {
-                        showOnboarding = false
-                    }
-                }
-            } else {
-                AppNavHost(navController)
-            }
-        }
+        OnboardingScreen(
+            onFinishOnboarding = {onboardingUtils.setOnboardingCompleted()}
+        )
     }
     override fun onDestroy() {
         super.onDestroy()

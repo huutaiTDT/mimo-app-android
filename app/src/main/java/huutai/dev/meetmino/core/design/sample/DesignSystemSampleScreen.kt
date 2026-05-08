@@ -26,19 +26,28 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
+import huutai.dev.meetmino.core.design.component.AppBadge
+import huutai.dev.meetmino.core.design.component.AppBrandHeader
 import huutai.dev.meetmino.core.design.component.AppCard
+import huutai.dev.meetmino.core.design.component.AppChip
 import huutai.dev.meetmino.core.design.component.AppFloatingActionButton
+import huutai.dev.meetmino.core.design.component.AppHeader
 import huutai.dev.meetmino.core.design.component.AppPrimaryButton
 import huutai.dev.meetmino.core.design.component.AppSecondaryButton
+import huutai.dev.meetmino.core.design.component.AppStatusChip
 import huutai.dev.meetmino.core.design.component.AppSuccessButton
+import huutai.dev.meetmino.core.design.component.AppText
 import huutai.dev.meetmino.core.design.component.AppTextField
+import huutai.dev.meetmino.core.design.component.AppTextVariant
 import huutai.dev.meetmino.core.design.component.AppTopBar
 import huutai.dev.meetmino.core.design.theme.AppTheme
 import huutai.dev.meetmino.core.design.theme.MeetMinoTheme
 import huutai.dev.meetmino.core.design.theme.Spacing
 
 @Composable
-fun DesignSystemSampleScreen() {
+fun DesignSystemSampleScreen(navController: NavController) {
+
 
     MeetMinoTheme {
 
@@ -72,6 +81,55 @@ fun DesignSystemSampleScreen() {
                     .padding(Spacing.md)
                     .verticalScroll(scrollState)
             ) {
+
+                AppBrandHeader()
+
+                Spacer(Modifier.height(Spacing.lg))
+
+                SectionHeader("App Text")
+
+                AppText(
+                    text = "Display text",
+                    variant = AppTextVariant.Display,
+                    color = AppTheme.colors.primary,
+                    bold = true
+                )
+
+                AppText(
+                    text = "Title text",
+                    variant = AppTextVariant.Title,
+                    bold = true
+                )
+
+                AppText(
+                    text = "Body text for descriptions and longer copy.",
+                    variant = AppTextVariant.Body,
+                    color = AppTheme.colors.textSecondary
+                )
+
+                Spacer(Modifier.height(Spacing.lg))
+
+                SectionHeader("Header + Chip")
+
+                AppHeader(
+                    title = "Explore",
+                    subtitle = "Find nearby memories",
+                    leadingIcon = Icons.Default.Menu,
+                    onLeadingClick = {},
+                    actions = listOf(Icons.Default.Search to {}),
+                    showDivider = true
+                )
+
+                Spacer(Modifier.height(Spacing.md))
+
+                Row(horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
+                    AppChip(text = "All", selected = true)
+                    AppChip(text = "Saved")
+                    AppStatusChip(text = "Active")
+                    AppBadge(text = "3")
+                }
+
+                Spacer(Modifier.height(Spacing.lg))
 
                 SectionHeader("Typography")
 

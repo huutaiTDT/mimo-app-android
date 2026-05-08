@@ -8,6 +8,7 @@ import androidx.compose.animation.EnterTransition;
 import androidx.compose.animation.ExitTransition;
 import androidx.compose.animation.ExperimentalAnimationApi;
 import androidx.compose.runtime.Composable;
+import androidx.compose.ui.Modifier;
 import androidx.navigation.NavBackStackEntry;
 import androidx.navigation.NavController;
 import androidx.navigation.NavGraphBuilder;

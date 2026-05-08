@@ -22,6 +22,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders["MAPS_API_KEY"] =
+            (project.findProperty("MAPS_API_KEY") as String?) ?: ""
     }
 
     // ---------------------------------------------------
@@ -186,7 +189,6 @@ dependencies {
     // LOGGING
     // ---------------------------------------------------
     implementation("com.jakewharton.timber:timber:5.0.1")
-
     // ---------------------------------------------------
     // TEST
     // ---------------------------------------------------

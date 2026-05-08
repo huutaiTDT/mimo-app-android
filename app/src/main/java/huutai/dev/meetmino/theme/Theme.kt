@@ -14,7 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsControllerCompat
-
+import huutai.dev.meetmino.core.design.theme.MeetMinoTheme
 private val LightColorScheme = lightColorScheme(
     primary = Color(0xFF057EF4),
     secondary =   Color(0xFFF2FDFF),
@@ -66,11 +66,13 @@ fun HodosTheme(
     }
 
 
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
+    MeetMinoTheme(darkTheme = darkTheme) {
+        MaterialTheme(
+            colorScheme = colorScheme,
+            typography = Typography,
+            content = content
+        )
+    }
 }
 
 

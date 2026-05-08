@@ -23,21 +23,17 @@ import huutai.dev.meetmino.core.design.theme.AppTheme
 @Composable
 fun AppCard(
     modifier: Modifier = Modifier,
-    content: @Composable ColumnScope.() -> Unit
+    content: @Composable ColumnScope.() -> Unit,
 ) {
     Card(
         modifier = modifier
-            .border(
-                width = 1.dp,
-                color = AppTheme.colors.border,
-                shape = AppShapes.Large
-            ),
+            ,
         shape = AppShapes.Large,
         colors = CardDefaults.cardColors(
             containerColor = AppTheme.colors.card
         ),
         elevation = CardDefaults.cardElevation(
-            defaultElevation = AppElevation.Card
+            defaultElevation = AppElevation.None
         ),
         content = content
     )

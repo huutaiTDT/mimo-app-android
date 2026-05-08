@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-12:12
-INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-12:12
-INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-12:12
-INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-12:12
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:1-35:12
 MERGED from [com.google.maps.android:maps-compose:6.4.1] /Users/genny/.gradle/caches/8.9/transforms/a8ba6631e48323a803931f7afeb3ffed/transformed/maps-compose-6.4.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.maps.android:maps-ktx:5.1.1] /Users/genny/.gradle/caches/8.9/transforms/5b8ad974ab34da778bb32af920bb21f0/transformed/maps-ktx-5.1.1/AndroidManifest.xml:18:1-23:12
 MERGED from [androidx.databinding:viewbinding:8.7.3] /Users/genny/.gradle/caches/8.9/transforms/f512ad715857d129d7cdfd0407b9048a/transformed/viewbinding-8.7.3/AndroidManifest.xml:2:1-7:12
@@ -147,9 +147,59 @@ MERGED from [com.google.dagger:dagger-lint-aar:2.56.2] /Users/genny/.gradle/cach
 		INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/68717575242c02889f0252a3a602e5c1/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/68717575242c02889f0252a3a602e5c1/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/70a7de56843e06f32a7691f90cfd3803/transformed/transport-runtime-3.3.0/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/70a7de56843e06f32a7691f90cfd3803/transformed/transport-runtime-3.3.0/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:6:22-62
+uses-feature#android.hardware.camera.any
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:8:5-10:36
+	android:required
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:10:9-33
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:9:9-51
 application
-ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:4:5-10:19
-INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:4:5-10:19
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:12:5-33:19
+INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:12:5-33:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/genny/.gradle/caches/8.9/transforms/de5de467eee2d15d20b17c55ed8c26d2/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/genny/.gradle/caches/8.9/transforms/de5de467eee2d15d20b17c55ed8c26d2/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/ecc8fd3b72ebfe581e1cb817b11023fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:23:5-34:19
@@ -227,15 +277,41 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/genn
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] /Users/genny/.gradle/caches/8.9/transforms/37f7897bf6f3e57e3fbf4e1d68cbf9c9/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:7:9-34
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:15:9-34
+	android:roundIcon
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:18:9-52
+	android:icon
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:17:9-41
 	android:allowBackup
-		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:9:9-53
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:19:9-53
 	android:name
-		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:5:9-38
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:13:9-38
+activity#huutai.dev.meetmino.MainActivity
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:21:9-28:20
+	android:exported
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:22:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:26:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:30:9-32:71
+	android:value
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:32:13-68
+	android:name
+		ADDED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml:31:13-58
 uses-sdk
 INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/genny/WORK/TRACKING-APP/android/app/src/main/AndroidManifest.xml
@@ -534,42 +610,6 @@ ADDED from [androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.
 		ADDED from [androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/ecc8fd3b72ebfe581e1cb817b11023fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:32:17-86
 	android:name
 		ADDED from [androidx.camera:camera-camera2:1.4.2] /Users/genny/.gradle/caches/8.9/transforms/ecc8fd3b72ebfe581e1cb817b11023fc/transformed/camera-camera2-1.4.2/AndroidManifest.xml:31:17-103
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/70a7de56843e06f32a7691f90cfd3803/transformed/transport-runtime-3.3.0/AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/70a7de56843e06f32a7691f90cfd3803/transformed/transport-runtime-3.3.0/AndroidManifest.xml:20:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/556346556ca1fa94ba4d9e3233726093/transformed/play-services-measurement-22.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/fe6bff8302f7ff392bb04c5d93075f09/transformed/play-services-measurement-impl-22.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/68717575242c02889f0252a3a602e5c1/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:7:5-67
-MERGED from [com.google.firebase:firebase-crashlytics:19.4.0] /Users/genny/.gradle/caches/8.9/transforms/68717575242c02889f0252a3a602e5c1/transformed/firebase-crashlytics-19.4.0/AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/7e4e28aabc26ccd67595a5b073928baf/transformed/play-services-measurement-api-22.2.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/genny/.gradle/caches/8.9/transforms/0ac3d499c412cf9bc0b52194a24e57e9/transformed/firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] /Users/genny/.gradle/caches/8.9/transforms/66b9c6a276538ecbe23dfeabc6658c6d/transformed/play-services-measurement-sdk-api-22.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/genny/.gradle/caches/8.9/transforms/8c0232512f858880b48e7436bf8926cf/transformed/transport-backend-cct-3.3.0/AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:22-64
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/genny/.gradle/caches/8.9/transforms/d7d3de5c49a7f634dbd9662892a518a4/transformed/play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
