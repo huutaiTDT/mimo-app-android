@@ -1,5 +1,6 @@
 package huutai.dev.meetmino.screen.myMap
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
@@ -21,15 +22,17 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Backpack
-import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.LocationOn
 import androidx.compose.material.icons.filled.PhotoCamera
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.MyLocation
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -39,19 +42,23 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import huutai.dev.meetmino.R
+import huutai.dev.meetmino.core.design.component.AppText
+import huutai.dev.meetmino.core.design.component.AppTextVariant
 import huutai.dev.meetmino.core.design.theme.AppTheme
 import kotlinx.coroutines.delay
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun JourneyMapScreen(navController: NavController) {
     val context = LocalContext.current
@@ -62,6 +69,7 @@ fun JourneyMapScreen(navController: NavController) {
 
     var selectedProvince by remember { mutableStateOf<ProvinceMapItem?>(null) }
     var selectedWaypoint by remember { mutableStateOf<Waypoint2?>(null) }
+    var showShareSheet by remember { mutableStateOf(false) }
 
     var isLoaded by remember { mutableStateOf(false) }
     var centerTrigger by remember { mutableStateOf(0) }
@@ -127,13 +135,6 @@ fun JourneyMapScreen(navController: NavController) {
             }
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
-            ProvinceScreenHeader(
-                totalProvinces = provinces.size,
-                selectedProvince = selectedProvince
-            )
-
-
-
             if (!isLoaded) {
                 Box(modifier = Modifier
                     .fillMaxWidth()
@@ -196,13 +197,43 @@ fun JourneyMapScreen(navController: NavController) {
                 .align(Alignment.BottomEnd)
                 .padding(bottom = 250.dp, end = 20.dp)
                 .size(56.dp),
-            containerColor = AppTheme.colors.textPrimary,
-            contentColor = AppTheme.colors.background
+            containerColor = AppTheme.colors.background,
+            contentColor = AppTheme.colors.textPrimary
         ) {
             Icon(
                 imageVector = Icons.Outlined.MyLocation,
                 contentDescription = "Center map",
                 modifier = Modifier.size(24.dp)
+            )
+        }
+
+        // Share button at top-left
+        FloatingActionButton(
+            onClick = { showShareSheet = true },
+            modifier = Modifier
+                .align(Alignment.TopStart)
+                .padding(top = 16.dp, start = 16.dp)
+                .size(48.dp),
+            containerColor = AppTheme.colors.primary,
+            contentColor = Color.White
+        ) {
+            Icon(
+                imageVector = Icons.Default.Share,
+                contentDescription = "Share",
+                modifier = Modifier.size(20.dp)
+            )
+        }
+    }
+
+    // Share Bottom Sheet
+    if (showShareSheet) {
+        ModalBottomSheet(
+            onDismissRequest = { showShareSheet = false },
+            scrimColor = Color.Black.copy(alpha = 0.32f)
+        ) {
+            ShareBottomSheetContent(
+                context = context,
+                onDismiss = { showShareSheet = false }
             )
         }
     }
@@ -220,7 +251,7 @@ private fun StatsCard(
     androidx.compose.material3.Surface(
         modifier = modifier
             .clip(RoundedCornerShape(16.dp))
-            .widthIn(max = 140.dp)
+            .widthIn(max = 120.dp)
             .background(AppTheme.colors.background.copy(alpha = 0.92f))
             .padding(16.dp),
         color = Color.Transparent
@@ -283,7 +314,7 @@ private fun StatsItem(
         // Icon in circle background
         Box(
             modifier = Modifier
-                .size(40.dp)
+                .size(24.dp)
                 .background(iconBackgroundColor, shape = CircleShape),
             contentAlignment = Alignment.Center
         ) {
@@ -291,7 +322,7 @@ private fun StatsItem(
                 imageVector = icon,
                 contentDescription = subText,
                 tint = iconTintColor,
-                modifier = Modifier.size(20.dp)
+                modifier = Modifier.size(18.dp)
             )
         }
 
@@ -301,47 +332,16 @@ private fun StatsItem(
         Column(
             verticalArrangement = Arrangement.Center
         ) {
-            Text(
+            AppText(
+                variant = AppTextVariant.Caption,
                 text = mainText,
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.Bold,
-                fontSize = 16.sp,
-                color = Color(0xFF1A1A1A)
+                color = AppTheme.colors.textPrimary
             )
-            Text(
+            AppText(
+                variant = AppTextVariant.Caption,
                 text = subText,
-                style = MaterialTheme.typography.bodySmall,
-                fontSize = 12.sp,
-                color = Color(0xFF757575)
+                color = AppTheme.colors.textSecondary
             )
-        }
-    }
-}
-
-@Composable
-private fun ProvinceScreenHeader(
-    totalProvinces: Int,
-    selectedProvince: ProvinceMapItem?
-) {
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 12.dp)
-    ) {
-        Text(
-            text = "Khám phá mọi miền đất nước",
-            style = MaterialTheme.typography.bodyMedium,
-            color = Color(0xFF5F748A)
-        )
-
-        Spacer(modifier = Modifier.height(12.dp))
-
-        androidx.compose.foundation.layout.Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Text(text = "Tổng: $totalProvinces tỉnh", style = MaterialTheme.typography.labelMedium, color = Color(0xFF1565C0))
-            Text(text = selectedProvince?.name ?: "Chưa chọn tỉnh", style = MaterialTheme.typography.labelMedium, color = Color(0xFF5F748A))
         }
     }
 }
@@ -354,19 +354,17 @@ private fun JourneyTimeline(
 ) {
     val screenWidthDp = LocalConfiguration.current.screenWidthDp
     val compactTimeline = screenWidthDp <= 375
-    val itemWidth = if (compactTimeline) 82.dp else 100.dp
-    val circleSize = if (compactTimeline) 64.dp else 80.dp
-    val iconSize = if (compactTimeline) 32.dp else 40.dp
+    val itemWidth = if (compactTimeline) 41.dp else 50.dp
+    val circleSize = if (compactTimeline) 32.dp else 40.dp
+    val iconSize = if (compactTimeline) 14.dp else 24.dp
     val connectorWidth = if (compactTimeline) 16.dp else 24.dp
-    val addButtonSize = if (compactTimeline) 64.dp else 80.dp
-    val titleFontSize = if (compactTimeline) 12.sp else 13.sp
-    val dateFontSize = if (compactTimeline) 10.sp else 11.sp
+    val addButtonSize = if (compactTimeline) 32.dp else 40.dp
 
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .background(AppTheme.colors.background.copy(alpha = 0.85f))
-            .padding(horizontal = 0.dp, vertical = 12.dp)
+            .padding(horizontal = 0.dp, vertical = 6.dp)
     ) {
         // Header
         Row(
@@ -376,28 +374,23 @@ private fun JourneyTimeline(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(
+            AppText(
                 text = "Hành trình của bạn",
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.Bold,
-                color = Color(0xFF1A1A1A)
+                color = AppTheme.colors.textPrimary
             )
-            Text(
+            AppText(
                 text = "Xem tất cả >",
-                style = MaterialTheme.typography.bodySmall,
-                color = Color(0xFF2196F3),
-                fontWeight = FontWeight.SemiBold
+                color = AppTheme.colors.textSecondary
             )
         }
 
-        // Horizontal scrollable timeline
         val scrollState = rememberScrollState()
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .horizontalScroll(scrollState)
-                .padding(horizontal = 16.dp),
-            horizontalArrangement = Arrangement.spacedBy(0.dp),
+                .padding(horizontal = 6.dp),
+            horizontalArrangement = Arrangement.spacedBy(24.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             waypoints.forEachIndexed { index, waypoint ->
@@ -406,70 +399,38 @@ private fun JourneyTimeline(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .width(itemWidth)
-                        .clip(RoundedCornerShape(12.dp))
-                        .background(
-                            if (isSelected) Color(0xFFE3F2FD).copy(alpha = 0.6f) else Color.Transparent
-                        )
+                        .clip(RoundedCornerShape(6.dp))
                         .clickable { onWaypointSelected(waypoint) }
                 ) {
-                    // Timeline item
                     Box(
                         contentAlignment = Alignment.Center,
                         modifier = Modifier.size(circleSize)
                     ) {
-                        // Circle background
-                        Box(
-                            modifier = Modifier
-                                .size(circleSize)
-                                .background(
-                                    color = if (isSelected) Color(0xFF2196F3) else Color(0xFFE3F2FD),
-                                    shape = CircleShape
-                                )
-                        )
-                        
-                        // Image/Icon placeholder
-                        Icon(
-                            imageVector = Icons.Default.LocationOn,
+                        Image(
+                            painter = painterResource(id = R.drawable.ob1),
                             contentDescription = waypoint.name,
-                            tint = if (isSelected) Color.White else Color(0xFF2196F3),
-                            modifier = Modifier.size(iconSize)
-                        )
-
-                        // Checkmark for visited
-                        Box(
                             modifier = Modifier
-                                .size(24.dp)
-                                .background(Color(0xFF4CAF50), shape = CircleShape)
-                                .align(Alignment.BottomEnd),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(
-                                imageVector = Icons.Default.CheckCircle,
-                                contentDescription = "Visited",
-                                tint = Color.White,
-                                modifier = Modifier.size(20.dp)
-                            )
-                        }
+                                .matchParentSize()
+                                .clip(RoundedCornerShape(24.dp)),
+                            contentScale = ContentScale.Crop,
+                        )
                     }
 
                     Spacer(modifier = Modifier.height(8.dp))
 
                     // Location name
-                    Text(
+                    AppText(
                         text = waypoint.name,
-                        style = MaterialTheme.typography.bodySmall,
-                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.SemiBold,
-                        fontSize = titleFontSize,
-                        color = if (isSelected) Color(0xFF2196F3) else Color(0xFF1A1A1A),
+                        color = if (isSelected) AppTheme.colors.primary
+                        else AppTheme.colors.textPrimary,
                         maxLines = 1
                     )
 
                     // Date
-                    Text(
+                    AppText(
                         text = waypoint.date,
-                        style = MaterialTheme.typography.labelSmall,
-                        fontSize = dateFontSize,
-                        color = if (isSelected) Color(0xFF2196F3) else Color(0xFF757575),
+                        color = if (isSelected) AppTheme.colors.primary
+                        else AppTheme.colors.textSecondary,
                         maxLines = 1
                     )
                 }
@@ -480,7 +441,7 @@ private fun JourneyTimeline(
                         modifier = Modifier
                             .width(connectorWidth)
                             .height(2.dp)
-                            .background(Color(0xFF4CAF50))
+                            .background(AppTheme.colors.textPrimary)
                             .align(Alignment.CenterVertically)
                     )
                 }
@@ -492,12 +453,12 @@ private fun JourneyTimeline(
                 modifier = Modifier
                     .size(addButtonSize)
                     .clip(CircleShape)
-                    .background(Color(0xFFF5F5F5))
+                    .background(AppTheme.colors.secondary)
             ) {
                 Icon(
                     imageVector = Icons.Default.Add,
                     contentDescription = "Add",
-                    tint = Color(0xFF9E9E9E),
+                    tint = AppTheme.colors.background,
                     modifier = Modifier.size(if (compactTimeline) 26.dp else 32.dp)
                 )
             }
@@ -505,5 +466,240 @@ private fun JourneyTimeline(
             Spacer(modifier = Modifier.width(16.dp))
         }
     }
+}
+
+@Composable
+private fun ShareBottomSheetContent(
+    context: android.content.Context,
+    onDismiss: () -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = "Chia sẻ hành trình",
+            style = MaterialTheme.typography.headlineSmall,
+            color = AppTheme.colors.textPrimary,
+            modifier = Modifier.padding(bottom = 24.dp)
+        )
+
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp),
+            horizontalArrangement = Arrangement.spacedBy(20.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            // Facebook
+            ShareOptionItem(
+                icon = Icons.Default.Share,
+                label = "Facebook",
+                backgroundColor = Color(0xFF1877F2),
+                onClick = {
+                    shareToFacebook(context)
+                    onDismiss()
+                }
+            )
+
+            // Zalo
+            ShareOptionItem(
+                icon = Icons.Default.Share,
+                label = "Zalo",
+                backgroundColor = Color(0xFF0099FF),
+                onClick = {
+                    shareToZalo(context)
+                    onDismiss()
+                }
+            )
+
+            // WhatsApp
+            ShareOptionItem(
+                icon = Icons.Default.Share,
+                label = "WhatsApp",
+                backgroundColor = Color(0xFF25D366),
+                onClick = {
+                    shareToWhatsApp(context)
+                    onDismiss()
+                }
+            )
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp),
+            horizontalArrangement = Arrangement.spacedBy(20.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            // Messenger
+            ShareOptionItem(
+                icon = Icons.Default.Share,
+                label = "Messenger",
+                backgroundColor = Color(0xFF0A66C2),
+                onClick = {
+                    shareToMessenger(context)
+                    onDismiss()
+                }
+            )
+
+            // Telegram
+            ShareOptionItem(
+                icon = Icons.Default.Share,
+                label = "Telegram",
+                backgroundColor = Color(0xFF0088cc),
+                onClick = {
+                    shareToTelegram(context)
+                    onDismiss()
+                }
+            )
+
+            // Copy Link
+            ShareOptionItem(
+                icon = Icons.Default.Share,
+                label = "Copy",
+                backgroundColor = Color(0xFF999999),
+                onClick = {
+                    copyToClipboard(context)
+                    onDismiss()
+                }
+            )
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+    }
+}
+
+@Composable
+private fun ShareOptionItem(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    label: String,
+    backgroundColor: Color,
+    onClick: () -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .clip(RoundedCornerShape(12.dp))
+            .background(backgroundColor)
+            .clickable { onClick() }
+            .padding(12.dp)
+            .width(60.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Box(
+            modifier = Modifier
+                .size(40.dp)
+                .background(Color.White.copy(alpha = 0.2f), shape = CircleShape),
+            contentAlignment = Alignment.Center
+        ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = label,
+                tint = Color.White,
+                modifier = Modifier.size(20.dp)
+            )
+        }
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(
+            text = label,
+            style = MaterialTheme.typography.labelSmall,
+            color = Color.White,
+            maxLines = 1
+        )
+    }
+}
+
+private fun shareToFacebook(context: android.content.Context) {
+    val text = "Khám phá hành trình của tôi qua các tỉnh thành Việt Nam với ứng dụng MeetMino!"
+    val intent = android.content.Intent().apply {
+        action = android.content.Intent.ACTION_SEND
+        putExtra(android.content.Intent.EXTRA_TEXT, text)
+        type = "text/plain"
+        `package` = "com.facebook.katana"
+    }
+    try {
+        context.startActivity(intent)
+    } catch (e: Exception) {
+        // Fallback to web
+        val webIntent = android.content.Intent(android.content.Intent.ACTION_VIEW).apply {
+            data = android.net.Uri.parse("https://www.facebook.com/sharer/sharer.php?u=https://meetmino.app")
+        }
+        context.startActivity(webIntent)
+    }
+}
+
+private fun shareToZalo(context: android.content.Context) {
+    val text = "Khám phá hành trình của tôi qua các tỉnh thành Việt Nam với ứng dụng MeetMino!"
+    val intent = android.content.Intent().apply {
+        action = android.content.Intent.ACTION_SEND
+        putExtra(android.content.Intent.EXTRA_TEXT, text)
+        type = "text/plain"
+        `package` = "com.zalo"
+    }
+    try {
+        context.startActivity(intent)
+    } catch (e: Exception) {
+        android.widget.Toast.makeText(context, "Vui lòng cài đặt Zalo", android.widget.Toast.LENGTH_SHORT).show()
+    }
+}
+
+private fun shareToWhatsApp(context: android.content.Context) {
+    val text = "Khám phá hành trình của tôi qua các tỉnh thành Việt Nam với ứng dụng MeetMino!"
+    val intent = android.content.Intent().apply {
+        action = android.content.Intent.ACTION_SEND
+        putExtra(android.content.Intent.EXTRA_TEXT, text)
+        type = "text/plain"
+        `package` = "com.whatsapp"
+    }
+    try {
+        context.startActivity(intent)
+    } catch (e: Exception) {
+        android.widget.Toast.makeText(context, "Vui lòng cài đặt WhatsApp", android.widget.Toast.LENGTH_SHORT).show()
+    }
+}
+
+private fun shareToMessenger(context: android.content.Context) {
+    val text = "Khám phá hành trình của tôi qua các tỉnh thành Việt Nam với ứng dụng MeetMino!"
+    val intent = android.content.Intent().apply {
+        action = android.content.Intent.ACTION_SEND
+        putExtra(android.content.Intent.EXTRA_TEXT, text)
+        type = "text/plain"
+        `package` = "com.facebook.orca"
+    }
+    try {
+        context.startActivity(intent)
+    } catch (e: Exception) {
+        android.widget.Toast.makeText(context, "Vui lòng cài đặt Messenger", android.widget.Toast.LENGTH_SHORT).show()
+    }
+}
+
+private fun shareToTelegram(context: android.content.Context) {
+    val text = "Khám phá hành trình của tôi qua các tỉnh thành Việt Nam với ứng dụng MeetMino!"
+    val intent = android.content.Intent().apply {
+        action = android.content.Intent.ACTION_SEND
+        putExtra(android.content.Intent.EXTRA_TEXT, text)
+        type = "text/plain"
+        `package` = "org.telegram.messenger"
+    }
+    try {
+        context.startActivity(intent)
+    } catch (e: Exception) {
+        android.widget.Toast.makeText(context, "Vui lòng cài đặt Telegram", android.widget.Toast.LENGTH_SHORT).show()
+    }
+}
+
+private fun copyToClipboard(context: android.content.Context) {
+    val text = "Khám phá hành trình của tôi qua các tỉnh thành Việt Nam với ứng dụng MeetMino!"
+    val clipboard = context.getSystemService(android.content.Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
+    val clip = android.content.ClipData.newPlainText("Journey Share", text)
+    clipboard.setPrimaryClip(clip)
+    android.widget.Toast.makeText(context, "Đã sao chép", android.widget.Toast.LENGTH_SHORT).show()
 }
 

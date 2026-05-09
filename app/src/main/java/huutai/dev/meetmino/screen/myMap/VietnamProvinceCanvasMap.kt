@@ -237,7 +237,7 @@ fun VietnamProvinceCanvasMap(
                             val (fillColor, strokeColor) = when {
                                 isSelectedWaypoint -> Pair(Color(0xFFFF9800), Color(0xFFF57C00)) // Orange for selected waypoint
                                 visited -> Pair(Color(0xFF43A047), Color(0xFF2E7D32)) // Green for visited
-                                else -> Pair(Color(0xFF9CCC65), Color(0xFF81C784)) // Light green for unvisited
+                                else -> Pair(Color(0xFFBDBDBD), Color(0xFF9E9E9E))
                             }
 
                             drawPath(
